@@ -1,0 +1,38 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+absolutive-lex := absolutive-lex-rule.
+
+singular-lex := singular-lex-rule.
+
+verb-pc63_lrt1-lex := verb-pc63_lrt1-lex-rule.
+
+verb-pc64_lrt1-lex := verb-pc64_lrt1-lex-rule.
+
+verb-pc65_lrt1-lex := verb-pc65_lrt1-lex-rule.
+
+verb-pc66_lrt1-lex := verb-pc66_lrt1-lex-rule.
+
+verb-pc67_lrt1-lex := verb-pc67_lrt1-lex-rule.
+
+verb-pc68_lrt1-lex := verb-pc68_lrt1-lex-rule.
+
+verb-pc69_lrt1-lex := verb-pc69_lrt1-lex-rule.
+
+verb-pc70_lrt1-lex := verb-pc70_lrt1-lex-rule.
+
+verb-pc71_lrt1-lex := verb-pc71_lrt1-lex-rule.
+
+verb-pc72_lrt1-lex := verb-pc72_lrt1-lex-rule.
+
+verb-pc73_lrt1-lex := verb-pc73_lrt1-lex-rule.
+
+verb-pc74_lrt1-lex := verb-pc74_lrt1-lex-rule.
+
+verb-pc75_lrt1-lex := verb-pc75_lrt1-lex-rule.
+
+verb-pc76_lrt1-lex := verb-pc76_lrt1-lex-rule.
+
+verb-pc77_lrt1-lex := verb-pc77_lrt1-lex-rule.
+
+;;present_uninfl-lex := present_uninfl-lex-rule.
+
+predicative-lex := predicative-lex-rule.

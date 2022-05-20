@@ -1,0 +1,998 @@
+Language: Tsova-Tush
+Language code: bbl
+Lines: orth gloss translat
+Author: Andrew Briand and Libbey Brown
+Date: January 12, 2022
+Source a: Hauk
+Source b: Corpus
+
+# 1: Intransitive: invariant
+Source: a:64
+Vetted: s
+Judgment: g
+Phenomena: case
+q’ar y-atx
+rain(j/j).abs cm-drip
+‘It is raining.’ (lit., ‘Rain drips/falls.’) 
+
+# 2: Intransitive: split S by person and volition
+Source: a:64
+Vetted: s
+Judgment: g
+Phenomena: case
+so y-arst'-e-sʷ
+1sg.abs cm(f)-gain.weight-prs-1sg.abs
+'I (F) am putting on weight [unintentionally].'
+
+# 3: Intransitive: split S by person and volition
+Source: a:64
+Vetted: s
+Judgment: g
+Phenomena: case
+as y-erst'-n-as
+1sg.erg cm(f)-gain.weight-aor-1sg.erg
+'I (F) put on weight [on purpose].'
+
+# 4: Intransitive: split S by person and volition
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: case
+o y-arst'-e
+yon.one.abs cm(f)-gain.weight-prs
+'She is putting on weight'
+
+# 5: Intransitive: split S by person and volition, 3rd person subject must be absolutive
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: case
+oqus y-arst'-e
+yon.one.erg cm(f)-gain.weight-prs
+'She is putting on weight'
+
+# 6: Transitive: canonical
+Source: a:65
+vetted: s
+Judgment: g
+Phenomena: case
+oqus dol tepx-ʷ
+yon.one.erg drum(j/j).abs play-prs
+'They (sg) play the drum.'
+
+# 7: Transitive: canonical, subject is ergative
+Source: author
+vetted: f
+Judgment: u
+Phenomena: case
+o dol tepx-ʷ
+yon.one.abs drum(j/j).abs play-prs
+'They (sg) play the drum.'
+
+# 8: transitive: canonical, object should be absolutive
+Source: author
+vetted: f
+Judgment: u
+Phenomena: case
+equs y-it icxus
+this.one.erg cm-wash that.one.erg
+'this one washes that one'
+
+# 9: transitive: dative subject
+Source: author
+vetted: f
+Judgment: g
+Phenomena: case
+equi-n y-abc' i
+this.one.dat cm-know that.one.abs
+'this one knows that one'
+
+# 10: transitive: dative subject, subject should be dative
+Source: author
+vetted: f
+Judgment: u
+Phenomena: case
+equs y-abc' i
+this.one.erg cm-know that.one.abs
+'this one knows that one'
+
+# 11: transitive: dative subject, object should be absolutive
+Source: author
+vetted: f
+Judgment: u
+Phenomena: case
+equi-n y-abc' icxui-n
+this.one.dat cm-know that.one.dat
+'this one knows that one'
+
+# 12 Agreement j/d gender sg
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agreement
+nan y-ac'
+mother cmjdsg-run.PRESENT.UNINFLECTED
+'Mother runs'
+
+#13 Agreement j/d gender pl
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agreement
+nan-i d-ac'
+mother.PL cmjdpl-run.PRESENT.UNINFLECTED
+'Mothers run'
+
+#14 Agreement v/b gender sg
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agreement
+mar v-ac'
+husband cmvbsg-run.PRESENT.UNINFLECTED
+'The husband runs'
+
+#15 Agreement v/b gender pl
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agreement
+mar-i b-ac'
+husband-PL cmvbpl-run.PRESENT.UNINFLECTED
+'The husbands run'
+
+#16 Agreement j/j gender sg
+Source: a:64
+Vetted: s
+Judgment: g
+Phenomena: Agreement
+q’ar y-atx
+rain(j/j).abs cmjjsg-drip
+‘It is raining.’ (lit., ‘Rain drips/falls.’)
+
+#17 Agreement d/d gender pl
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Agreement
+bader-i d-ac'
+child-PL cmdd-run.PRESENT.UNINFLECTED
+'The children run'
+
+#18 Agreement d/j gender sg
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Agreement
+t'ot' d-ac'
+hand;paw;branch cmdjsg-run.PRESENT.UNINFLECTED
+'The hand runs'
+
+#19 Agreement d/j gender pl
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Agreement
+t'ot'-i y-ac'
+hand;paw;branch-PL cmdjpl-run.PRESENT.UNINFLECTED
+'The hand runs'
+
+#20 Agreement j/d gender sg; has wrong agreement marker
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Agreement
+nan d-ac'
+mother cmjdpl-run.PRESENT.UNINFLECTED
+'The mother runs'
+
+#21 Agreement j/d gender sg; has wrong agreement marker
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Agreement
+nan b-ac'
+mother cmvbpl-run.PRESENT.UNINFLECTED
+'The mother runs'
+
+#22 Agreement v/b gender pl; has wrong agreement marker
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: agreement
+mar d-ac'
+husband cmjdpl-run.PRESENT.UNINFLECTED
+'The husband runs'
+
+#23 Agreement d/d gender pl; has wrong agreement marker
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Agreement
+bader-i v-ac'
+child-PL cmvbsg-run.PRESENT.UNINFLECTED
+'The children run'
+
+#24 Agreement j/j gender sg; has wrong agreement marker
+Source: author
+Vetted: s
+Judgment: u
+Phenomena: Agreement
+q’ar b-atx
+rain cmvbpl-drip
+‘It is raining.’ (lit., ‘Rain drips/falls.’)
+
+#25 Agreement d/d gender pl; has wrong agreement marker
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Agreement
+bader-i y-ac'
+child-PL cmdjpl-run.PRESENT.UNINFLECTED
+'The children run'
+
+#26 Agreement d/j gender pl; has wrong agreement marker
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Agreement
+t'ot'-i d-ac'
+hand;paw;branch-PL cmdjsg-run.PRESENT.UNINFLECTED
+'The hands run'
+
+#27 Agreement d/j gender sg; has wrong agreement marker
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Agreement
+t'ot' y-ac'
+hand;paw;branch cmdjpl-run.PRESENT.UNINFLECTED
+'The hand runs'
+
+# 28: Coordination: Parataxis cannot be used with constituents
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Coordination
+vir st'ak d-arst'-e
+donkey man cm(d/d)-gain.weight-prs
+A donkey and a man are gaining weight
+
+# 29: Coordination: Parataxis
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Coordination
+k'uit' d-arst'-e, st'ak v-arst'-e
+cat cm(d/d)-gain.weight-prs, man cm(v/b)-gain.weight-prs
+A cat is gaining weight and a man is gaining weight
+
+# 30: Coordination: Clitic
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Coordination
+vir=e st'ak=e d-arst'-e
+donkey=and man=and cm(d/d)-gain.weight-prs
+A donkey and a man are gaining weight
+
+# 31: Coordination: Clitic, subjects of different genders trigger (d/d) agreement
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Coordination
+vir=e st'ak=e j-arst'-e
+donkey=and man=and cm(j/j)-gain.weight-prs
+A donkey and a man are gaining weight
+
+# 32: Coordination: Conjunction cannot be used with constituents
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Coordination
+vir e st'ak d-arst'-e
+donkey and man cm(d/d)-gain.weight-prs
+A donkey and a man are gaining weight
+
+# 33: Coordination: Conjunction
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Coordination
+k'uit' d-arst'-e, e st'ak v-arst'-e
+cat cm(d/d)-gain,weight-prs, and man cm(v/b)-gain.weight-prs
+A cat is ganing weight and a man is gaining weight
+
+# 34: Demonstrative adjectives: absolutive
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Demonstrative adjectives
+e st'ak v-arst'-e
+this.ABS man cm(v/b)-gain.weight-prs
+This man is gaining weight
+
+# 35: Demonstrative adjectives: absolutive
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Demonstrative adjectives
+eq st'ak v-arst'-e
+this.OBL man cm(v/b)-gain.weight-prs
+This man is gaining weight
+
+# 36: Demonstrative adjectives: absolutive
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Demonstrative adjectives
+is st'ak v-arst'-e
+that.ABS man cm(v/b)-gain.weight-prs
+That man is gaining weight
+
+# 37: Demonstrative adjectives: absolutive
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Demonstrative adjectives
+icx st'ak v-arst'-e
+that.OBL man cm(v/b)-gain.weight-prs
+That man is gaining weight
+
+# 38: Demonstrative adjectives: absolutive
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Demonstrative adjectives
+o st'ak v-arst'-e
+yon.ABS man cm(v/b)-gain.weight-prs
+Yon man is gaining weight
+
+# 39: Demonstrative adjectives: absolutive
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Demonstrative adjectives
+oq st'ak v-arst'-e
+yon.OBL man cm(v/b)-gain.weight-prs
+Yon man is gaining weight
+
+# 40: Demonstrative adjectives: oblique
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Demonstrative adjectives
+eq bader-i-v ʡok'-i y-aq'-o 
+this.OBL child-PL-ERG crescent.shaped.pastry-PL cm(y/y)-eat-IMPF
+These children are eating pancakes
+
+# 41: Demonstrative adjectives: oblique
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Demonstrative adjectives
+e bader-i-v ʡok'-i y-aq'-o 
+this.ABS child-PL-ERG crescent.shaped.pastry-PL cm(y/y)-eat-IMPF
+These children are eating pancakes
+
+# 42: Demonstrative adjectives: oblique
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Demonstrative adjectives
+icx bader-i-v ʡok'-i y-aq'-o 
+that.OBL child-PL-ERG crescent.shaped.pastry-PL cm(y/y)-eat-IMPF
+Those children are eating pancakes
+
+# 43: Demonstrative adjectives: oblique
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Demonstrative adjectives
+is bader-i-v ʡok'-i y-aq'-o 
+that.ABS child-PL-ERG crescent.shaped.pastry-PL cm(y/y)-eat-IMPF
+Those children are eating pancakes
+
+# 44: Demonstrative adjectives: oblique
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Demonstrative adjectives
+oq bader-i-v ʡok'-i y-aq'-o 
+yon.OBL child-PL-ERG crescent.shaped.pastry-PL cm(y/y)-eat-IMPF
+Yon children are eating pancakes
+
+# 45: Demonstrative adjectives: oblique
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Demonstrative adjectives
+o bader-i-v ʡok'-i y-aq'-o 
+yon.ABS child-PL-ERG crescent.shaped.pastry-PL cm(y/y)-eat-IMPF
+Yon children are eating pancakes
+
+# 46: Demonstrative adjectives: Demonstrative adjective preceeds noun
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Demonstrative adjectives
+bader-i-v oq ʡok'-i y-aq'-o 
+child-PL-ERG yon.OBL crescent.shaped.pastry-PL cm(y/y)-eat-IMPF
+Yon children are eating pancakes
+
+# 47: Tense/aspect: Present group
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tense/aspect
+oqus tet'-o xen
+yon.one cut(present)-present tree
+(S)he cuts the tree / (S)he is cutting the tree
+
+# 48: Tense/aspect: Present group
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tense/aspect
+oqus tet'-ora xen
+yon.one cut(present)-imperfect tree
+(S)he used to cut the tree 
+
+# 49: Tense/aspect: Present group
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tense/aspect
+oqus tet'-ralʷ xen
+yon.one cut(present)-imperfect.reported tree
+(S)he evidently used to cut the tree 
+
+# 50: Tense/aspect: Future group
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tense/aspect
+oqus tit'-o xen
+yon.one cut(future)-future tree
+(S)he will cut the tree 
+
+# 51: Tense/aspect: Future group
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tense/aspect
+oqus tit'-ora xen
+yon.one cut(future)-imperfect tree
+(S)he will cut (multiple times) the tree 
+
+# 52: Tense/aspect: Future group
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tense/aspect
+oqus tit'-ralʷ xen
+yon.one cut(future)-imperfect.reported tree
+(S)he evidently will cut the tree 
+
+# 53: Tense/aspect: Aorist imperfective group
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tense/aspect
+oqus tet'-in xen
+yon.one cut(aorist imperfective)-aorist tree
+(S)he did cut (multiple times) the tree
+
+# 54: Tense/aspect: Aorist imperfective group
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tense/aspect
+oqus tet'-ir xen
+yon.one cut(aorist imperfective)-perfect tree
+(S)he had cut (multiple times) the tree
+
+# 55: Tense/aspect: Aorist imperfective group
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tense/aspect
+oqus tet'-ino xen
+yon.one cut(aorist imperfective)-aorist.reported tree
+(S)he evidently cut (multiple times) the tree
+
+# 56: Tense/aspect: Aorist imperfective group
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tense/aspect
+oqus tet'-nor xen
+yon.one cut(aorist imperfective)-aorist.reported tree
+(S)he evidently had cut (multiple times) the tree
+
+# 57: Tense/aspect: Aorist group
+Source: b:3790
+Vetted: s
+Judgment: g
+Phenomena: tense/aspect
+oqus tit'-en xen
+yon.one cut(aorist perfective)-aorist tree
+(S)he did cut the tree
+
+# 58: Tense/aspect: Aorist group
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tense/aspect
+oqus tit'-er xen
+yon.one cut(aorist perfective)-perfect tree
+(S)he had cut the tree
+
+# 59: Tense/aspect: Aorist group
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tense/aspect
+oqus tit'-eno xen
+yon.one cut(aorist perfective)-aorist.reported tree
+(S)he evidently cut the tree
+
+# 60: Tense/aspect: Aorist group
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: tense/aspect
+oqus tit'-nor xen
+yon.one cut(aorist perfective)-aorist.reported tree
+(S)he evidently had cut the tree
+
+# 61: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Adnominal Possession
+seⁿ k'uit' d-arst'-e
+1sg.POSS cat cm(d/d)-gain.weight-prs
+My cat is gaining weight
+
+# 62: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Adnominal Possession
+se k'uit' d-arst'-e
+1sg.POSS.OBL cat cm(d/d)-gain.weight-prs
+My cat is gaining weight
+
+# 63: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Adnominal Possession
+ħeⁿ k'uit' d-arst'-e
+2sg.POSS cat cm(d/d)-gain.weight-prs
+Your cat is gaining weight
+
+# 64: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Adnominal Possession
+ħe k'uit' d-arst'-e
+2sg.POSS.OBL cat cm(d/d)-gain.weight-prs
+Your cat is gaining weight
+
+# 65: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Adnominal Possession
+šuⁿ k'uit' d-arst'-e
+2pl.POSS cat cm(d/d)-gain.weight-prs
+Your (PL) cat is gaining weight
+
+# 66: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Adnominal Possession
+šu k'uit' d-arst'-e
+2pl.POSS.OBL cat cm(d/d)-gain.weight-prs
+Your (PL) cat is gaining weight
+
+# 67: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Adnominal Possession
+txeⁿ k'uit' d-arst'-e
+1pl.EXCL.POSS cat cm(d/d)-gain.weight-prs
+Our (exclusive) cat is gaining weight
+
+# 68: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Adnominal Possession
+txe k'uit' d-arst'-e
+1pl.EXCL.POSS.OBL cat cm(d/d)-gain.weight-prs
+Our (exclusive) cat is gaining weight
+
+# 69: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Adnominal Possession
+vaiⁿ k'uit' d-arst'-e
+1pl.INCL.POSS cat cm(d/d)-gain.weight-prs
+Our (inclusive) cat is gaining weight
+
+# 70: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Adnominal Possession
+vai k'uit' d-arst'-e
+1pl.INCL.POSS.OBL cat cm(d/d)-gain.weight-prs
+Our (inclusive) cat is gaining weight
+
+# 71: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Adnominal Possession
+oquiⁿ k'uit' d-arst'-e
+3sg.POSS cat cm(d/d)-gain.weight-prs
+Their (sg) cat is gaining weight
+
+# 72: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Adnominal Possession
+oqui k'uit' d-arst'-e
+3sg.POSS.OBL cat cm(d/d)-gain.weight-prs
+Their (sg) cat is gaining weight
+
+# 73: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Adnominal Possession
+se bader-i-v ʡok'-i y-aq'-o 
+1sg.POSS.OBL child-PL-ERG crescent.shaped.pastry-PL cm(y/y)-eat-IMPF
+My children are eating pancakes
+
+# 74: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Adnominal Possession
+seⁿ bader-i-v ʡok'-i y-aq'-o 
+1sg.POSS child-PL-ERG crescent.shaped.pastry-PL cm(y/y)-eat-IMPF
+My children are eating pancakes
+
+# 75: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Adnominal Possession
+oqui bader-i-v ʡok'-i y-aq'-o 
+3sg.POSS.OBL child-PL-ERG crescent.shaped.pastry-PL cm(y/y)-eat-IMPF
+Their (sg) children are eating pancakes
+
+# 76: Possessive pronouns: Case agreement
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Adnominal Possession
+oquiⁿ bader-i-v ʡok'-i y-aq'-o 
+3sg.POSS child-PL-ERG crescent.shaped.pastry-PL cm(y/y)-eat-IMPF
+Their (sg) children are eating pancakes
+
+# 77: Adnominal possession: Genitive
+Source: corpus
+Vetted: s
+Judgment: g
+Phenomena: Adnominal Possession
+beⁿ ħac'uk'-e-n c'a d-a
+nest bird.SG-thematic.vowel-GEN house CM(F.pl)-be
+A nest is a bird's house.
+
+# 78: Adnominal possession: Possessor is genitive
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Adnominal Possession
+beⁿ ħac'uk' c'a d-a
+nest bird.SG house CM(F.pl)-be
+A nest is a bird's house.
+
+# 79: Possessive pronouns: Pronoun precedes possessum
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Adnominal Possession
+k'uit' oquiⁿ d-arst'-e
+cat 3sg.POSS cm(d/d)-gain.weight-prs
+Their (sg) cat is gaining weight
+
+
+# 80: Matrix wh questions: what abs
+Source: b 2720
+Vetted: s
+Judgment: g
+Phenomena: Matrix wh questions
+vux tit'-er 
+what(abs) cut_aorist-perfective 
+What did (s/he) cut?
+
+# 81: Matrix wh questions: who ergative
+Source: b 2730
+Vetted: s
+Judgment: g
+Phenomena: Matrix wh questions
+ħan tit'-en xaxʷ 
+who(ERG) cut_aorist-aorist onion 
+Who cut the onion?
+
+# 82: Matrix wh questions: who absolutive
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: Matrix wh questions
+meⁿ tit'-er 
+who(abs) cut_aorist-perfective 
+Who did (s/he) cut?
+
+# 83: Matrix wh questions: what should be absolutive, is ergative
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Matrix wh questions
+st'e tit'-er 
+what(erg) cut_aorist-perfective 
+What did (s/he) cut?
+
+# 84: Matrix wh questions: who should be ergative, is absolutive
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Matrix wh questions
+meⁿ tit'-en xaxʷ 
+who(abs) cut_aorist-aorist onion 
+Who cut the onion?
+
+# 85: Matrix wh questions: word order should have question word precede the verb
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: Matrix wh questions
+tit'-er vux
+cut_aorist-perfective what(abs)
+What did (s/he) cut?
+
+# 86: Embedded clauses: declarative
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: embedded clauses
+malo dak'lev me pħu-i toħ
+Malo think.PRESENT.UNINFLECTED COMP dog-PL sleep.PRESENT.UNINFLECTED
+Malo thinks that dogs sleep.
+
+# 87: Embedded clauses: declarative
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: embedded clauses
+malo dak'lev pħu-i toħ
+Malo think.PRESENT.UNINFLECTED  dog-PL sleep.PRESENT.UNINFLECTED
+Malo thinks dogs sleep.
+
+# 88: Embedded clauses: question
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: embedded clauses
+malo xat'-en vux tit'er
+malo ask-AORIST what cut-AORIST
+Malo asked what did (she/he) cut.
+
+# 89: Embedded clauses: declarative, multiple embedded clauses
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: embedded clauses
+malo dak'lev me ǰemo dak'lev me pħu-i toħ
+Malo think.PRESENT.UNINFLECTED COMP Jemo think.PRESENT.UNINFLECTED COMP dog-PL sleep.PRESENT.UNINFLECTED
+Malo thinks that Jemo thinks that dogs sleep.
+
+# 90: Machine translation
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: intransitive verb
+pħu-i toħ
+dog-PL sleep-PRES.UNINFLECTED
+Dogs sleep
+
+# 91: Machine translation
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agreement
+pħu-i mankaⁿ-i-x b-ac'yal
+dog(abs)-PL car-PL-CON AGR-chase.transitive-PRES.UNINFLECTED
+Dogs chase cars
+
+# 92: Machine translation
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agreement
+as ħo-x v-ac'yal
+I(abs) you-CON AGR-chase.transitive-PRES.UNINFLECTED
+I chase you
+
+# 93: Machine translation
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: agreement
+pħu-i-v b-aq'-o
+dog-pl-erg AGR-eat-pres
+Dogs eat
+
+# 94: Machine translation
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: negation
+pħu-i mankaⁿ-i-x co b-ac'yal
+dog(abs)-PL car-PL-CON not AGR-chase.transitive-PRES.UNINFLECTED
+The dogs don't chase cars
+
+# 95: Machine translation
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wh-questions
+pħu-i st'e-x d-ac'yal
+dog-PL what-CON AGR-chase.trans.PRES.UNINFLECTED
+What do the dogs chase
+
+# 96: Machine translation
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: wh-questions
+meⁿ toħ
+who(abs) sleep.PRES.UNINFLECTED
+Who sleeps
+
+# 97: Non-verbal predicates: AP
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: non-verbal predicates
+pħu-i maci b-a
+dog-PL hungry agreement.bb-be.PRESENT
+The dogs are hungry
+
+# 98: Non-verbal predicates: PP
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: non-verbal predicates
+pħu-i mindor-ħ b-a
+dog-PL park-LOC agreement.bb-be.PRESENT
+The dogs are in the park
+
+# 99: Non-verbal predicates: NP
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: non-verbal predicates
+pħu-i k'uit'i-i b-a
+dog-PL cat-PL agreement.bb-be.PRESENT
+The dogs are the cats
+
+# 100: Non-verbal predicates: AP, incorrect agreement marker
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: non-verbal predicates
+pħu-i maci y-a
+dog-PL hungry agreement.bb-be.PRESENT
+The dogs are hungry
+
+# 101: Non-verbal predicates: AP, needs copula
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: non-verbal predicates
+pħu-i maci 
+dog-PL hungry 
+The dogs are hungry
+
+# 102: Non-verbal predicates: PP, needs copula
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: non-verbal predicates
+pħu-i mindor-ħ 
+dog-PL park-LOC 
+The dogs are in the park
+
+# 103: Non-verbal predicates: PP, incorrect agreement
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: non-verbal predicates
+pħu-i mindor-ħ d-a
+dog-PL park-LOC agreement.bb-be.PRESENT
+The dogs are in the park
+
+# 104: Non-verbal predicates: PP, incorrect case marker
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: non-verbal predicates
+pħu-i mindor-v b-a
+dog-PL park agreement.bb-be.PRESENT
+The dogs are in the park
+
+# 105: Non-verbal predicates: NP, needs copula
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: non-verbal predicates
+pħu-i k'uit'i-i 
+dog-PL cat-PL 
+The dogs are the cats
+
+# 106: Non-verbal predicates: NP, incorrect agreement marker
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: non-verbal predicates
+pħu-i k'uit'i-i y-a
+dog-PL cat-PL agreement.bb-be.PRESENT
+The dogs are the cats
+
+# 107: Non-scopal modifiers
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: non-scopal modifiers
+maci-v     pħu-i-v    b-aq'-o
+hungry-ERG dog-PL-ERG agreement.bb-eat-PRESENT
+Hungry dogs eat
+
+# 108: Non-scopal modifiers
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: non-scopal modifiers
+pħu-i-v    mindor-ħ b-aq'-o
+dog-PL-ERG park-LOC agreement.bb-eat-PRESENT
+Dogs in the park eat
+
+# 109: Non-scopal modifiers
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: non-scopal modifiers
+pħu-i-v    b-aq'-o                  mindor-ħ 
+dog-PL-ERG agreement.bb-eat-PRESENT park-LOC
+Dogs eat in the park
+
+# 110: Non-scopal modifiers: adjectives agree in case with nouns
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: non-scopal modifiers
+maci-n     pħu-i-v    b-aq'-o
+hungry-ABS dog-PL-ERG agreement.bb-eat-PRESENT
+Hungry dogs eat

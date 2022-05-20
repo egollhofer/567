@@ -1,0 +1,82 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Semantically Empty Lexical Entries
+
+;;me_1_gr := arg0e_gtr &
+;;  [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT pfv ] >,
+;;    FLAGS.TRIGGER "me_1" ].
+
+šuin_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
+    FLAGS.TRIGGER "šuin" ].
+
+-i_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
+    FLAGS.TRIGGER "-i" ].
+
+ħain_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
+    FLAGS.TRIGGER "ħain" ].
+
+ħuin_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
+    FLAGS.TRIGGER "ħuin" ].
+
+šarin_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
+    FLAGS.TRIGGER "šarin" ].
+
+oqux_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT ipfv ] >,
+    FLAGS.TRIGGER "oqux" ].
+
+-x_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT ipfv ] >,
+    FLAGS.TRIGGER "-x" ].
+
+-er_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT ipfv ] >,
+    FLAGS.TRIGGER "-er" ].
+
+txain_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
+    FLAGS.TRIGGER "txain" ].
+
+sain_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
+    FLAGS.TRIGGER "sain" ].
+
+šer_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
+    FLAGS.TRIGGER "šer" ].
+
+šarax_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT ipfv ] >,
+    FLAGS.TRIGGER "šarax" ].
+
+suin_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
+    FLAGS.TRIGGER "suin" ].
+
+ma_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
+    FLAGS.TRIGGER "ma" ].
+
+suinen_gr := arg0e_gtr &
+  [ CONTEXT.RELS.LIST < [ PRED "non_existing_rel" ] >,
+    FLAGS.TRIGGER "suinen" ].
+
+a_gr := arg0e_gtr &
+  [ CONTEXT [ RELS.LIST < [ PRED "~.*_p_" ] > ],
+    FLAGS.TRIGGER "a_2" ].
+
+a_gr_adj := arg0e_gtr &
+  [ CONTEXT [ RELS.LIST < [ PRED "~.*_a_rel" ] > ],
+    FLAGS.TRIGGER "a_2" ].
+
+;;a_gr := arg0e_gtr &
+;;  [ CONTEXT.RELS.LIST < [ PRED "_loc_p_rel" ] >,
+;;    FLAGS.TRIGGER "a_2" ].
+
+;;a_gr := arg0e_gtr &
+;;  [ CONTEXT.RELS.LIST < [ PRED "~.*_p_" ] >,
+;;    FLAGS.TRIGGER "a_2" ].

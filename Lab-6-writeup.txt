@@ -1,0 +1,451 @@
+LING 567 Lab 6
+Andrew Briand and Libbey Brown
+
+At the end of last week, our machine translation from English to Tsova-Tush of the sentence "Dogs sleep" was generating 32,833 results.
+
+Changes in the grammar
+
+Phenomena we addressed this week included coordination, verb agreement morphology and its interaction with tense/aspect morphology, and embedded clauses.
+We also changed some words in the lexicon we will use during machine translation so they have the correct features.
+
+Coordination:
+
+Before the lab, sentences like the following incorrectly exhibited bare-np's with single n8-left daughters:
+
+vir=e      st'ak=e d-arst'-e
+donkey=and man=and cm(d/d)-gain.weight-prs
+A donkey and a man are gaining weight
+
+We incorporated the following changes suggested by Emily to fix this problem:
+
+We added this type:
+
+add-ccont-and-coord-change-only-lex-rule := same-non-local-lex-rule &
+					    same-modified-lex-rule &
+					    same-light-lex-rule &
+					    same-ctxt-lex-rule &
+					    same-cont-lex-rule &
+					    same-agr-lex-rule &
+					    same-cat-lex-rule.
+
+We added bbl-infl-left-coord-rule as follows:
+
+bbl-infl-left-coord-rule := omni-left-coord-rule &
+			    add-ccont-and-coord-change-only-lex-rule &
+  [ INFLECTED infl-satisfied,
+    DTR.INFLECTED inflected,
+    NEEDS-AFFIX +,
+    SYNSEM.LOCAL [ COORD +,
+		   COORD-REL #crel ],
+    C-CONT [ RELS.LIST < #crel >,
+             HCONS.LIST < > ]]. 
+
+
+
+We changed n8-left-coord-rule to:
+
+n8-left-coord-rule := bbl-infl-left-coord-rule & n-bottom-coord-phrase & pass-up-png-coord-rule &
+  [ SYNSEM.LOCAL [ COORD-STRAT "8",
+                   COORD-REL.PRED "_and_coord_r
+
+After these changes, 32 parses remained for the above sentence, due to the fact that the coordination rules were accepting nouns whose inflection was not yet satisfied. To fix this we changed the following rule to require that DTR.INFLECTED be infl-satisfied:
+
+bbl-infl-left-coord-rule := omni-left-coord-rule &
+                            add-ccont-and-coord-change-only-lex-rule &
+  [ INFLECTED infl-satisfied,
+    DTR.INFLECTED infl-satisfied,
+    NEEDS-AFFIX +,
+    SYNSEM.LOCAL [ COORD +,
+                   COORD-REL #crel ],
+    C-CONT [ RELS.LIST < #crel >,
+             HCONS.LIST < > ]].
+
+Additionally we added bbl-infl-bottom-coord-rule and changed n8-bottom-coord-rule to do the same:
+
+bbl-infl-bottom-coord-rule := infl-bottom-coord-rule &
+  [ INFLECTED infl-satisfied,
+    DTR.INFLECTED infl-satisfied].
+
+n8-bottom-coord-rule := bbl-infl-bottom-coord-rule & pass-up-png-coord-rule &
+  [ SYNSEM.LOCAL.COORD-STRAT "8",
+    SYNSEM.LOCAL.COORD-REL.PRED "_and_coord_rel",
+    DTR.SYNSEM.LOCAL.CAT.HEAD noun ].
+
+After this, two parses remained, one in which st'ak=e is the daughter of an n8-left rule and one in which it is the daughter of an n8-bottom rule.
+
+
+Embedded clauses:
+
+Last week we made significant changes to the grammar to parse sentences with embedded clauses.  
+The grammar was successfully parsing sentences with one embedded clause, as the sentence below:
+	malo           dak'lev          me   pħu-i     toħ
+	Malo think.PRESENT.UNINFLECTED COMP dog-PL sleep.PRESENT.UNINFLECTED
+	Malo thinks that dogs sleep.
+
+This week we looked into sentences containing embedded clauses within embedded clauses, as below:
+	malo      dak'lev               me  ǰemo            dak'lev         me  pħu-i       toħ
+	Malo think.PRESENT.UNINFLECTED COMP Jemo think.PRESENT.UNINFLECTED COMP dog-PL sleep.PRESENT.UNINFLECTED
+	Malo thinks that Jemo thinks that dogs sleep.
+
+The above sentence generated 1095 parses at the beginning of the week. The bulk of the sentences were generated with coordination rules.
+Looking through the generated trees, it became clear that the sentences generated with coordination were parsing the word 'me' as a semantically empty auxiliary.
+	me_1 := aux5-aux-lex &
+  	[ STEM < "me" > ].
+After commenting out this auxiliary, the grammar only created a single tree for that sentence.
+
+Agreement:
+
+The agreement position classes made during Lab 2 were messy and unclear, largely because I (Libbey) didn't have a great handle on what to do at that point in time.
+This week, we re-did those position classes to be more streamlined, as below:
+
+verb-pc82_name=verb-gender-agreement-intrans
+  verb-pc82_obligatory=on
+  verb-pc82_order=prefix
+  verb-pc82_inputs=verb180, verb181, verb182, verb183, verb195, verb196, verb197
+    verb-pc82_lrt1_name=vb_singular
+      verb-pc82_lrt1_feat1_name=gender
+      verb-pc82_lrt1_feat1_value=vb
+      verb-pc82_lrt1_feat1_head=subj
+      verb-pc82_lrt1_feat2_name=number
+      verb-pc82_lrt1_feat2_value=sg
+      verb-pc82_lrt1_feat2_head=subj
+      verb-pc82_lrt1_lri1_inflecting=yes
+      verb-pc82_lrt1_lri1_orth=v-
+    verb-pc82_lrt2_name=dd
+      verb-pc82_lrt2_feat1_name=gender
+      verb-pc82_lrt2_feat1_value=dd
+      verb-pc82_lrt2_feat1_head=subj
+      verb-pc82_lrt2_lri1_inflecting=yes
+      verb-pc82_lrt2_lri1_orth=d-
+    verb-pc82_lrt3_name=vb_plural
+      verb-pc82_lrt3_feat1_name=gender
+      verb-pc82_lrt3_feat1_value=vb
+      verb-pc82_lrt3_feat1_head=subj
+      verb-pc82_lrt3_feat2_name=number
+      verb-pc82_lrt3_feat2_value=pl
+      verb-pc82_lrt3_feat2_head=subj
+      verb-pc82_lrt3_lri1_inflecting=yes
+      verb-pc82_lrt3_lri1_orth=b-
+    verb-pc82_lrt4_name=jd_singular
+      verb-pc82_lrt4_feat1_name=gender
+      verb-pc82_lrt4_feat1_value=jd
+      verb-pc82_lrt4_feat1_head=subj
+      verb-pc82_lrt4_feat2_name=number
+      verb-pc82_lrt4_feat2_value=sg
+      verb-pc82_lrt4_feat2_head=subj
+      verb-pc82_lrt4_lri1_inflecting=yes
+      verb-pc82_lrt4_lri1_orth=y-
+    verb-pc82_lrt5_name=jd_plural
+      verb-pc82_lrt5_feat1_name=gender
+      verb-pc82_lrt5_feat1_value=jd
+      verb-pc82_lrt5_feat1_head=subj
+      verb-pc82_lrt5_feat2_name=number
+      verb-pc82_lrt5_feat2_value=pl
+      verb-pc82_lrt5_feat2_head=subj
+      verb-pc82_lrt5_lri1_inflecting=yes
+      verb-pc82_lrt5_lri1_orth=d-
+    verb-pc82_lrt6_name=jj
+      verb-pc82_lrt6_feat1_name=gender
+      verb-pc82_lrt6_feat1_value=jj
+      verb-pc82_lrt6_feat1_head=subj
+      verb-pc82_lrt6_lri1_inflecting=yes
+      verb-pc82_lrt6_lri1_orth=y-
+    verb-pc82_lrt7_name=dj_singular
+      verb-pc82_lrt7_feat1_name=gender
+      verb-pc82_lrt7_feat1_value=dj
+      verb-pc82_lrt7_feat1_head=subj
+      verb-pc82_lrt7_feat2_name=number
+      verb-pc82_lrt7_feat2_value=sg
+      verb-pc82_lrt7_feat2_head=subj
+      verb-pc82_lrt7_lri1_inflecting=yes
+      verb-pc82_lrt7_lri1_orth=d-
+    verb-pc82_lrt8_name=dj_plural
+      verb-pc82_lrt8_feat1_name=gender
+      verb-pc82_lrt8_feat1_value=dj
+      verb-pc82_lrt8_feat1_head=subj
+      verb-pc82_lrt8_feat2_name=number
+      verb-pc82_lrt8_feat2_value=pl
+      verb-pc82_lrt8_feat2_head=subj
+      verb-pc82_lrt8_lri1_inflecting=yes
+      verb-pc82_lrt8_lri1_orth=y-
+
+Some verbs in Tsova-Tush take agreement markers, and others do not. The above agreement morphological rules are designed for intransitive verbs that take agreement with the subject.
+Those verb types are the inputs to the agreement position class.
+The output of the agreement position class is then input to the tense/aspect position classes developed during Lab 4.
+For verbs that do not mark agreement, those verbs are input directly to the tense/aspect position classes, as we had already done in Lab 4.
+The tense/aspect rules have not been modified other than changing the inputs, but they are provided below for reference.
+
+verb-pc80_name=impf_stems
+  verb-pc80_obligatory=on
+  verb-pc80_order=suffix
+  verb-pc80_inputs=verb192, verb193, verb-pc82
+    verb-pc80_lrt1_name=present_tense
+      verb-pc80_lrt1_feat1_name=tense
+      verb-pc80_lrt1_feat1_value=present
+      verb-pc80_lrt1_feat1_head=verb
+      verb-pc80_lrt1_lri1_inflecting=yes
+      verb-pc80_lrt1_lri1_orth=-ʷ
+      verb-pc80_lrt1_lri3_inflecting=yes
+      verb-pc80_lrt1_lri3_orth=-o
+      verb-pc80_lrt1_lri4_inflecting=yes
+      verb-pc80_lrt1_lri4_orth=-e
+    verb-pc80_lrt2_name=present_ipf
+      verb-pc80_lrt2_feat1_name=tense
+      verb-pc80_lrt2_feat1_value=present
+      verb-pc80_lrt2_feat1_head=verb
+      verb-pc80_lrt2_feat2_name=aspect
+      verb-pc80_lrt2_feat2_value=ipfv
+      verb-pc80_lrt2_feat2_head=verb
+      verb-pc80_lrt2_lri1_inflecting=yes
+      verb-pc80_lrt2_lri1_orth=-or
+      verb-pc80_lrt2_lri2_inflecting=yes
+      verb-pc80_lrt2_lri2_orth=-ora
+    verb-pc80_lrt3_name=pres_ipf_reported
+      verb-pc80_lrt3_feat1_name=tense
+      verb-pc80_lrt3_feat1_value=present
+      verb-pc80_lrt3_feat1_head=verb
+      verb-pc80_lrt3_feat2_name=aspect
+      verb-pc80_lrt3_feat2_value=ipfv
+      verb-pc80_lrt3_feat2_head=verb
+      verb-pc80_lrt3_feat3_name=evidential
+      verb-pc80_lrt3_feat3_value=reported
+      verb-pc80_lrt3_feat3_head=verb
+      verb-pc80_lrt3_lri1_inflecting=yes
+      verb-pc80_lrt3_lri1_orth=-ralʷ
+    verb-pc80_lrt4_name=aorist
+      verb-pc80_lrt4_feat1_name=tense
+      verb-pc80_lrt4_feat1_value=aorist
+      verb-pc80_lrt4_feat1_head=verb
+      verb-pc80_lrt4_lri1_inflecting=yes
+      verb-pc80_lrt4_lri1_orth=-in
+    verb-pc80_lrt5_name=aorist_perfect
+      verb-pc80_lrt5_feat1_name=tense
+      verb-pc80_lrt5_feat1_value=aorist
+      verb-pc80_lrt5_feat1_head=verb
+      verb-pc80_lrt5_feat2_name=aspect
+      verb-pc80_lrt5_feat2_value=pfv
+      verb-pc80_lrt5_feat2_head=verb
+      verb-pc80_lrt5_lri1_inflecting=yes
+      verb-pc80_lrt5_lri1_orth=-ir
+    verb-pc80_lrt6_name=aorist_reported
+      verb-pc80_lrt6_feat1_name=tense
+      verb-pc80_lrt6_feat1_value=aorist
+      verb-pc80_lrt6_feat1_head=verb
+      verb-pc80_lrt6_feat2_name=evidential
+      verb-pc80_lrt6_feat2_value=reported
+      verb-pc80_lrt6_feat2_head=verb
+      verb-pc80_lrt6_lri1_inflecting=yes
+      verb-pc80_lrt6_lri1_orth=-ino
+    verb-pc80_lrt7_name=perfect_reported
+      verb-pc80_lrt7_feat1_name=tense
+      verb-pc80_lrt7_feat1_value=aorist
+      verb-pc80_lrt7_feat1_head=verb
+      verb-pc80_lrt7_feat2_name=aspect
+      verb-pc80_lrt7_feat2_value=pfv
+      verb-pc80_lrt7_feat2_head=verb
+      verb-pc80_lrt7_feat3_name=evidential
+      verb-pc80_lrt7_feat3_value=reported
+      verb-pc80_lrt7_feat3_head=verb
+      verb-pc80_lrt7_lri1_inflecting=yes
+      verb-pc80_lrt7_lri1_orth=-nor
+    verb-pc80_lrt8_name=present_uninfl
+      verb-pc80_lrt8_feat1_name=tense
+      verb-pc80_lrt8_feat1_value=present
+      verb-pc80_lrt8_feat1_head=verb
+      verb-pc80_lrt8_lri1_inflecting=no
+
+During lab 2, we had created noun types with the correct gender specified.  
+This week we added additional nouns to those categories for machine translation
+	pħu 'dog', gender b/b
+	mindor 'park', gender v/b
+	mankaⁿ 'car', gender j/j
+	k'uit'i 'cat', gender d/d
+
+Tsova-Tush has 8 grammatical genders, 5 of which are considered "full" genders and 3 of which are treated as an exception.  
+We had intended to ignore the last 3 genders, but pħu 'dog' is in one of those 3 exception genders, so we added that in this week.
+The full list of gendered nouns we have created follows below.
+
+noun123_name=jd_nouns
+  noun123_supertypes=noun1
+    noun123_feat2_name=gender
+    noun123_feat2_value=jd
+  noun123_det=opt
+    noun123_stem1_orth=nan
+    noun123_stem1_pred=_mother_n_rel
+    noun123_stem2_orth=ag
+    noun123_stem2_pred=_grandmother_n_rel
+    noun123_stem3_orth=pst'u
+    noun123_stem3_pred=_woman_n_rel
+  noun124_name=vb_nouns
+  noun124_supertypes=noun1
+    noun124_feat3_name=gender
+    noun124_feat3_value=vb
+  noun124_det=opt
+    noun124_stem1_orth=mar
+    noun124_stem1_pred=_husband_n_rel
+    noun124_stem2_orth=dad
+    noun124_stem2_pred=_father_n_rel
+    noun124_stem3_orth=st'ak
+    noun124_stem3_pred=_man_n_rel
+    noun124_stem4_orth=mindor
+    noun124_stem4_pred=_park_n_rel
+  noun125_name=jj_nouns
+  noun125_supertypes=noun1
+    noun125_feat2_name=gender
+    noun125_feat2_value=jj
+  noun125_det=opt
+    noun125_stem1_orth=q'ar
+    noun125_stem1_pred=_rain_n_rel
+    noun125_stem2_orth=mankaⁿ
+    noun125_stem2_pred=_car_n_rel
+  noun126_name=dd_nouns
+  noun126_supertypes=noun1
+    noun126_feat2_name=gender
+    noun126_feat2_value=dd
+  noun126_det=opt
+    noun126_stem1_orth=bader
+    noun126_stem1_pred=_child_n_rel
+    noun126_stem2_orth=k'uit'i
+    noun126_stem2_pred=_cat_n_rel
+  noun127_name=dj_nouns
+  noun127_supertypes=noun1
+    noun127_feat2_name=gender
+    noun127_feat2_value=dj
+  noun127_det=opt
+    noun127_stem1_orth=t'ot'
+    noun127_stem1_pred=_hand; paw; branch_n_rel
+ noun130_name=bb_nouns
+  noun130_supertypes=noun1
+    noun130_feat1_name=gender
+    noun130_feat1_value=bb
+  noun130_det=opt
+    noun130_stem1_orth=pħu
+    noun130_stem1_pred=_dog_n_rel
+
+
+
+To address overgeneration during machine translation, the following changes were made:
+
+We removed the following words which are not actually auxiliaries:
+
+-x := aux12-aux-lex &
+  [ STEM < "-x" > ].
+
+-er := aux13-aux-lex &
+  [ STEM < "-er" > ].
+
+oqux := aux11-aux-lex &
+  [ STEM < "oqux" > ].
+
+me_1 := aux5-aux-lex &
+  [ STEM < "me" > ].
+
+šarax := aux17-aux-lex &
+  [ STEM < "šarax" > ].
+
+We then removed any extraneous inflectional rules that were being added in the first machine translation sentence whose function was unknown to us by removing their suffix rules from irules.tdl
+Noun pc rules include: noun-pc1, noun-pc4, noun-pc6, noun-pc8, noun-pc9_lrt9, noun-pc12_lrt1 suffixes 1-4, noun-pc13, noun-pc21, noun-pc24, noun-pc29, and noun-pc4.
+Verb pc rules include: verb-pc5, verb-pc6, verb-pc18_lrt1, and dummy-person-case-agreement
+
+An error message popped up regarding trigger rules and the deleted auxiliiary 'me', so we modified the trigger.mtr file as below:
+	;;me_1_gr := arg0e_gtr &
+	;;  [ CONTEXT.RELS.LIST < [ ARG0.E.ASPECT pfv ] >,
+	;;    FLAGS.TRIGGER "me_1" ].
+
+We also modified our tense/agreement position classes with multiple spellings to eliminate overgeneration:
+present_tense-suffix1 :=
+%suffix (* -ʷ) (* -o) (* -e)
+present_tense-lex-rule.
+
+present_ipf-suffix1 :=
+%suffix (* -or) (* -ora)
+present_ipf-lex-rule.
+
+
+
+
+semi.vpm changes:
+
+We made several changes to the semi.vpm file, most of which were motivated by instructions in the lab and the formatting of the English semi.vpm
+We removed the feature paths to remove PNG. and E. from the external/right-hand side.
+For person, we modified the spelling of the features 3rd to third, 2nd to second, and 1st to first on the right side.
+PNG.PER : PER
+  3rd <> third
+  2nd <> second
+  1st <> first
+  * <> *
+For tense, we modified aorist to map to past on the right side.
+E.TENSE : TENSE
+  aorist <> past
+  future <> future
+  present <> present
+  * <> *
+For aspect, we modified the document following the suggestions in the lab as follows:
+E.ASPECT : ASPECT
+  pfv <> pfv
+  ipfv <> ipfv
+  * >> no-aspect
+  pfv << [e]
+Additionally, we removed gender from semi.vpm
+
+Following these changes to the grammar, the English -> Tsova-Tush machine translation generated only 2 sentences, which is correct as the language has free word order.
+
+
+Test runs over the testsuite and the corpus:
+
+Lab 5 performance/Lab 6 start performance, duplicated from last week's writeup:
+Performance on test corpus:
+
+  How many items parsed? 128 out of 999
+  What is the average number of parses per parsed item? 44.41
+  How many parses did the most ambiguous item receive? 438
+  What sources of ambiguity can you identify? Sentences like the following seem to be very ambiguous because they are interpreted by the grammar in some analyses as the asyndetic coordination of two sentences (something we added to the grammar this week):
+
+so-n   co  qet , vux          aɬ-in              oqus
+1S DAT NEG know, what (NOM.S) say-aorist.formant 3S.ERG 
+I don't know what s/he said.
+
+(The above was the worst at 438 parses).
+
+Performance on testsuite:
+
+  How many items parsed? 39 out of 97 (63 of which are positive examples)
+  What is the average number of parses per parsed item? 8.36
+  How many parses did the most ambiguous item receive? 68
+  What sources of ambiguity can you identify? The main source of ambiguity appears to be embedded clauses being interpreted as asyndetic coordination (as in the test corpus). Additionally, as we saw during class on thursday, in sentences like the following exhibiting coordination between nouns, there is increased ambiguity from N8-LEFT being the daughter of BARE-NP without coordinating with anything:
+
+Lab 6 end of week performance with corpus:
+  How many items parsed? 109 out of 999
+  What is the average number of parses per parsed item? 33.63
+  How many parses did the most ambiguous item receive? 763
+  What sources of ambiguity can you identify?
+    Asyndetic coordination (combined with arugument optionality) continues to be problematic.  
+    In the sentence with 763 parses, the sentence is interpreted as two coordinated sentences or multiple coordinated VPs in one sentence, with many trees from the different interpretations
+
+The sentence with 763 parses, however, seems to be taken from dialogue and it's unclear to us if this is a grammatical single sentence:
+k'oc'ol ħalʷ y-opc-in , k'oc'ol y-a e 
+this braid up CM (F.sg) weave, knit (+preradical CM) aorist formant , braid CM (y/y) be (present) this (Linguist's IGT)
+braid up agreement-weave-aorist , braid agreement-be this (Our interpretation of the IGT)
+She's making a braid, there's already a braid
+
+Lab 6 end of week performance with testsuite:
+  How many items parsed? 35 of 96
+  What is the average number of parses per parsed item? 3.26
+  How many parses did the most ambiguous item receive? 52
+  What sources of ambiguity can you identify? 
+	Two sentences received an excessive number of parses (48 and 52, respectively).
+	For both of those two sentences, the main source of ambiguity appears to be extra lexical entries for the demonstrative adjectives 'eq' and 'is', the second of which is a verb.
+	Having the word interpreted as a verb leads to asyndetic coordination of VPs and sentences.
+	We should note that we have not worked on implementing demonstrative adjectives in our grammar.
+	The most ambiguous sentence is below:
+
+		eq bader-i-v ʡok'-i y-aq'-o 
+		this.OBL child-PL-ERG crescent.shaped.pastry-PL cm(y/y)-eat-IMPF
+		These children are eating pancakes
+
+There do not seem to be any new sources of ambiguity, and we have eliminated a significant amount of ambiguity through the gender coordination rules.
+
+
+
+
+

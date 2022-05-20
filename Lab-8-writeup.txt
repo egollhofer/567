@@ -1,0 +1,349 @@
+Andrew Briand and Libbey Brown
+LING 567
+Lab 8
+
+Question 1: Description of non-scopal modifiers in Tsova-Tush:
+
+Our descriptive ressource did provide any description or analysis of these modifiers in Tsova-Tush. We believe we were able to determine enough about them to translate and parse the machine translation sentences, however, namely:
+
+1. Hungry dogs eat
+
+2. Dogs in the park eat
+
+3. Dogs eat in the park
+
+ We will first present the examples in the corpus that led us to our understanding of this phenomenon (repeated from our Canvas discussion post):
+
+It appears that adjectives receive a "-n" suffix when they function attributively on absolutive nouns, and that they precede the noun that they modify, based on examples from the corpus like the following:
+
+oqus              lex        k'ac'k'o-n            gogri-n       k'ui-n        qer-bi.
+3S.ERG / that one search.for little, small ADJ.NOM round ADJ.NOM white ADJ.NOM stone PL .
+S/he is looking for small, round, white stones.
+
+oquin             =e   co  c'onala tuxore-n      daq'ar
+3S.DAT / that one =and NEG like    salty ADJ.NOM food .
+S/he also doesn't like salty food.
+
+The gloss here is not very clear to us (it mentions pl but girl is singular), but it appears that there is a -č suffix for dative nouns:
+
+k'ac'k'o-č yoħ-o-n nʕaiʔi y-al-an leʔe , nan-a-s co ix-it-or .
+
+little, small pl (only after -ar) girl present formant (+impf) DAT out, outside, outward CM (F.sg) (+CM, with preverbs) go out, go up, go in, etc. infinitive either... or, even if, even though , mother SG thematic ending? ERG.S for humans and nouns ending in /o/ or /u/ NEG go, come (no CM) causative (add ERG argument) IMPF .
+
+A little girl wanted to go outside, and mother didn't let her go. 
+
+And a -e suffix for allative nouns, as well as gender agreement for certain adjectives:
+
+daħ               tit'      st'eplaʔo       y-aqːo-e-čo 
+
+away from speaker cut (pfv) carrot CM (y/y) big (+preradical CM) SG thematic vowel between stem and case ending thematic extension for adjectives
+
+nač'er-i-go .
+
+piece  PL ALL .
+
+Chop the carrot into big pieces.
+
+Furthermore, adjectives appear to take a -v when modifying ergative nouns that are non-human:
+
+ču čak'unt'ad-al-in-čo-v .
+
+in squat (post-radical CM?) intransitive deverbal adjective thematic extension for adjectives ERG (non-human singular; plural) .
+
+the squatting one
+
+We will focus on the non-human ergative case in order to translate "Hungry dogs eat".
+
+For sentence 2, it appears that locative nouns can directly modify NPs:
+
+as     dak'lev-as   me   sen    bader sk'ola-ħ   ħamaxeʔ            ɣaziːš ʡamd--uin 
+
+1S.ERG think 1S.ERG COMP 1S.GEN child school LOC most (superlative) well   study CM (d/d)
+
+xiɬ .
+
+present participle be .
+
+I think my child will be the best student in school. (00:12:09 - 00:12:12)@@
+
+For sentence 3, it appears that locative nouns can directly modify VPs:
+
+pst'u menxu-čo-n mak-a moq-erč gonbador bato-s , y-aːx-er kalika-ħ .
+
+woman which (NOM) thematic extension (mine, etc) DAT on (+DAT)  REL song, verse PL NO_GLOSS Bato (male name) ERG.S for humans and nouns ending in /o/ or /u/ , CM (F.sg) live (+preradical CM) imperfective city LOC .
+
+The woman for whom Bato wrote verses lived in the city.
+
+We added positive examples to our test suite based on the machine translation sentences:
+
+# 107: Non-scopal modifiers: 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: non-scopal modifiers
+maci-v     pħu-i-v    b-aq'-o
+hungry-ERG dog-PL-ERG agreement.bb-eat-PRESENT
+Hungry dogs eat
+
+# 108: Non-scopal modifiers: 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: non-scopal modifiers
+pħu-i-v    mindor-ħ b-aq'-o
+dog-PL-ERG park-LOC agreement.bb-eat-PRESENT
+Dogs in the park eat
+
+# 109: Non-scopal modifiers: 
+Source: author
+Vetted: f
+Judgment: g
+Phenomena: non-scopal modifiers
+pħu-i-v    b-aq'-o                  mindor-ħ 
+dog-PL-ERG agreement.bb-eat-PRESENT park-LOC
+Dogs eat in the park
+
+We added the following negative example for case agreement between adjectives and nouns:
+
+# 107: Non-scopal modifiers: adjectives agree in case with nouns
+Source: author
+Vetted: f
+Judgment: u
+Phenomena: non-scopal modifiers
+maci-n     pħu-i-v    b-aq'-o
+hungry-ABS dog-PL-ERG agreement.bb-eat-PRESENT
+Hungry dogs eat
+
+Question 2: Implementation of these phenomena in our grammar
+
+Implementing the modifiers in the second and third sentences was straightfoward. We simply had to add an instantiation of the head-adj-int rule to allow the modifiers to appear after the nouns they modified:
+
+head-adj-int := head-adj-int-phrase.
+
+Then the rule we made last week to make PP's out of locative nouns did the rest of the work.
+
+To implement attributive adjectives for the first sentences, we followed the approach suggested by Emily in the canvas discussion. We used the lexical entry we developed for predicative adjectives last week. We removed its SPR for simplicity since we are currently not working with adverbs:
+
+bbl-basic-adjective-lex := norm-sem-lex-item & non-local-none-lex-item & adj-infl-dtr &
+			   [ SYNSEM [ LOCAL [ CAT [ HEAD adj,
+						    VAL [ COMPS < >,
+							  SUBJ < >,
+							  SPEC < >,
+                                                          SPR < > ] ] ] ], 
+                             INFLECTED.ADJ-INFL-FLAG - ].
+
+We also removed its inheritance from intersective-mod-lex and created a different type:
+
+bbl-basic-adjective-lex-intersective := bbl-basic-adjective-lex & intersective-mod-lex.
+
+with the goal of using a position class to decide whether a given adjective could modify a noun or be a predicate. Drawing inspiration from the customization system, we implemented the position class by adding a inflection flag:
+
+inflected +: [...
+              ...
+              ADJ-INFL-FLAG luk ].
+
+infl-satisfied +: [...
+                   ...
+                   ADJ-INFL-FLAG na-or-+ ].
+
+We then made a lexical rule supertype for the position class:
+
+adj-infl-lex-rule-super := add-only-no-ccont-rule &
+                           [ INFLECTED infl-satisfied,
+                             DTR adj-infl-dtr & [ INFLECTED.ADJ-INFL-FLAG - ] ].
+
+Its parent has infl-satisfied and it requires its daughter to not have not yet been inflected. We then defined a case for predicative adjectives for attributive adjectives in the ergative case:
+
+predicative-lex-rule := adj-infl-lex-rule-super & const-lex-rule &
+			[ SYNSEM.LOCAL.CAT.HEAD.MOD < > ].
+
+attributive-erg-lex-rule := adj-infl-lex-rule-super & infl-lex-rule &
+                            [ DTR bbl-basic-adjective-lex-intersective ].
+
+The predicative-lex-rule has an empty MOD list so that it will not modify nouns and only be valid as the predicate of a verb. The attributive-erg-lex-rule requires its daughter to be the type we defined earlier, bbl-basic-adjective-lex-intersective, so that it will modify nouns. Finally, we added the appropriate morphology for the ergative case and added the predicative lexical rule to lrules.tdl:
+
+attributive-erg-suffix :=
+%suffix (* -v)
+attributive-erg-lex-rule.
+
+predicative-lex := predicative-lex-rule.
+
+Question 3: MMT cleanup
+
+We did some additional work so our grammar can parse the sentences with the transitive verb 'chase' for the machine translation exercise.
+
+Our sentences with the transitive verb 'ac'yal' ('chase') were not parsing.
+
+Sentence was added to the testsuite in a prior lab, and is repeated below:
+
+	pħu-i 	      mankaⁿ-i-x      b-ac'yal
+	dog-PL        car-PL-CON      AGR-chase.transitive-PRES.UNINFLECTED
+	Dogs chase cars
+
+The verb 'ac'yal' requires the object to have contact case, and the sentences were not parsing because we did not have the inflectional rule to add the contact case affix spelled '-x'.
+We added a new contact case lexical rule to our pre-existing case lexical rule with the following modifications:
+
+Added to bbl.tdl:
+	contact-lex-rule := Case-lex-rule-super & infl-lex-rule &
+		     [ SYNSEM.LOCAL.CAT.HEAD.CASE con].
+
+Added to irules.tdl:
+	contact-lex-rule-suffix :=
+	%suffix (* -x)
+	contact-lex-rule.
+
+Once we did the following, the sentence parsed appropriately in lkb.
+
+When we attempted machine translation with that sentence, there was an affix being added to the contact case noun causing additional sentences to be generated.
+We were getting 24 sentences generated
+To fix this, we commented out the following from irules.tdl:
+
+	;;noun-pc9_lrt6-suffix :=
+	;;%suffix (* -cin)
+	;;noun-pc9_lrt6-lex-rule.
+
+After this, we are generating 12 sentences.  This is an acceptable level of ambiguity, as our verb is grammatical either with an inflectional present tense affix or present uninflected.
+We have free word order, so there are 6 sentences with the inflected verb and 6 sentences with the uninflected verb.
+We attempted to prevent the generation of both inflected and uninflected sentences for this verb by adding (* *) to the list of spellings for the present tense affix, but this both generated an error message and didn't stop overgeneration, so we deleted it out.
+
+Once the declarative sentence was parsing and translating appropriately we decided to explore the wh-questions "Who sleeps" and "What do dogs chase?"
+
+The sentence 'Who sleeps' already parses in our grammar.  It is given below:
+	meⁿ        toħ
+	who(abs)    sleep.PRES.UNINFLECTED
+	Who sleeps
+
+The sentence "What do the dogs chase" did not parse in our grammar.
+
+	pħu-i    st'e-x         b-ac'yal
+	dog-PL   what-CON       AGR-chase.trans.PRES.UNINFLECTED
+	What do dogs chase
+
+This was not parsing because we did not have the lexical entry for a contact case 'what'.
+Rather than using our contact case inflectional rule, we created a new lexical type.
+We chose to do this because the question word has a completely different spelling for each case, so it cannot be input to our suffix rules and generate the correct output.
+
+Added to bbl.tdl:
+question_con-noun-lex := wh-pronoun-noun-lex &
+			 [ SYNSEM.LOCAL [ CAT.HEAD.CASE con,
+					  CONT.HOOK.INDEX.PNG.GEND dd ] ].
+
+Added to lexicon:
+
+stex := question_con-noun-lex &
+	  [ STEM < "st'e-x" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+With these modifications the sentence does parse in LKB. 
+
+At this point, neither sentence is translating from English to Tsova-Tush.  
+
+We can translate both sentences bbl->bbl, generating 2 sentences for sentence 20 and 12 sentences for sentence 21, which is the appropriate number of sentences given our free word order and different spellings of the verb 'chase'.
+We cannot translate eng->bbl, and this appears to be due to a mismatch in the MRS for translating from eng->bbl.
+Specifically, our grammar generates 'which_q_rel' for the wh-questions, and based on the error message, the English MRS is 'wh_q_rel'.  
+This is something that will hopefully be easy to address so that we can have additional sentences working for the machine translation exercise at the end of class. 
+
+Question 4: 
+
+1. Works, 2 results for both sje and eng as source.
+
+2. Works, 12 results for both sje and eng as source.
+
+3. Doesn't work, our language string fails to parse.
+
+4. Parses and transfers, but just spins and doesn't output any sentences.
+
+5. Doesn't work, our language string fails to parse.
+
+6. Doesn't work, our language string fails to parse.
+
+7. Doesn't work, because our language string isn't available.
+
+8. Doesn't work, the MRS for some of our parses have _loc_p_rel's. It appears that the subject of the verb is not correctly identified in any of our MRS's.
+
+9. Doesn't work, because our language string isn't available.
+
+10. Doesn't work, because our language string isn't available.
+
+11. Doesn't work, because our language string isn't available.
+
+12. Parses and transfers, but just spins and doesn't output any sentences.
+
+13. Doesn't work for eng, '"_in_p_rel" is not covered.' Translation missing for sje
+
+14. No translation for sje. Doesn't work for eng, '"_in_p_rel" is not covered.'
+
+15. No translation for sje. Doesn't work for eng, MRS appears the same.
+
+16. No translation for sje. Doesn't work for eng, '"_in_p_rel" is not covered.'
+
+17. No translation for sje. Works for eng, 12 results.
+
+18. Doesn't work, because our language string isn't available.
+
+19. 4 results for both eng and sje.
+
+20. Doesn't work for eng or sje, "wh_q_rel" is not covered.
+
+21. Doesn't work for eng or sje, "wh_q_rel" is not covered.
+
+22. Doesn't work, because our language string isn't available.
+
+23. Doesn't work, because our language string isn't available.
+
+24. Doesn't work for eng or sje, "wh_q_rel" is not covered.
+
+25. Doesn't work, because our language string isn't available.
+
+26. Doesn't work, because our language string isn't available.
+
+Question 5: 
+
+Beginning of week performance on corpus:
+
+How many items parsed? 104 out of 999
+
+What is the average number of parses per parsed item? 40.36
+
+How many parses did the most ambiguous item receive? 844
+
+Sources of ambiguity: The most significant new source of ambiguity seems to be due to our verb agreement prefixes. Prior to last week, our transitive 'be' verb was not set as an input to our gendered agreement prefixes, but was instead input to a handful of similarly-spelled prefixed automatically generated by the grammar.
+
+The profile for this run can be found at bbl/lab8-before/corpus/22-02-25/lkb
+
+Beginning of week performance on test suite:
+
+How many items parsed? 40 out of 110
+
+What is the average number of parses per parsed item? 4.22
+
+How many parses did the most ambiguous item receive? 52
+
+Sources of ambiguity: Our PP predicates are generating ambiguity, as discussed earlier.
+
+The profile for this run can be found at bbl/lab8-before/lab8/22-02-25/lkb
+
+End of week performance on corpus:
+
+How many items parsed? 99 out of 999
+
+What is the average number of parses per parsed item? 45.46
+
+How many parses did the most ambiguous item receive? 844 
+
+NEW sources of ambiguity: We aren't really able to identify any new sources here, as very few of our corpus sentences are related to non-scopal modifiers.
+
+The profile for this run can be found at bbl/lab8-after/corpus/22-02-25/lkb
+
+End of week performance on test suite:
+
+How many items parsed? 39 out of 110
+
+What is the average number of parses per parsed item? 3.36
+
+How many parses did the most ambiguous item receive? 26
+
+NEW sources of ambiguity: Again, we aren't really able to identify any new sources here, as the non-scopal modifier changes we made affect few sentences.
+
+The profile for this run can be found at bbl/lab8-after/corpus/22-02-25/lkb
+

@@ -1,0 +1,3222 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Nouns
+
+abrešum := noun1-noun-lex &
+	   [ STEM < "abrešum" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_silk_n_rel" ].
+
+adam := noun1-noun-lex &
+	[ STEM < "adam" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_adam (male name)_n_rel" ].
+
+admieⁿ := noun1-noun-lex &
+	  [ STEM < "admieⁿ" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_person_n_rel" ].
+
+agvist_27 := noun1-noun-lex &
+	     [ STEM < "agvist'" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_august_n_rel" ].
+
+alːni := noun1-noun-lex &
+	 [ STEM < "alːni" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_alvani_n_rel" ].
+
+ambui_1 := noun1-noun-lex &
+	   [ STEM < "ambui" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_conversation_n_rel" ].
+
+amind := noun1-noun-lex &
+	 [ STEM < "amind" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_weather_n_rel" ].
+
+amɣar := noun1-noun-lex &
+	 [ STEM < "amɣar" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_kadagidze_n_rel" ].
+
+apuš := noun1-noun-lex &
+	[ STEM < "apuš" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_lie, untruth_n_rel" ].
+
+araq_27 := noun1-noun-lex &
+	   [ STEM < "araq'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_vodka_n_rel" ].
+
+atxo := noun1-noun-lex &
+	[ STEM < "atxo" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_1pl.excl.erg_n_rel" ].
+
+axmit_27a := noun1-noun-lex &
+	     [ STEM < "axmit'a" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_akhmeta (regional administrative city)_n_rel" ].
+
+aɣvir := noun1-noun-lex &
+	 [ STEM < "aɣvir" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_bit (of a bridle)_n_rel" ].
+
+babo := noun1-noun-lex &
+	[ STEM < "babo" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_grandfather_n_rel" ].
+
+badriǰan := noun1-noun-lex &
+	    [ STEM < "badriǰan" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_tomato_n_rel" ].
+
+baku := noun1-noun-lex &
+	[ STEM < "baku" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_baku (azerbaijan)_n_rel" ].
+
+balk_27on := noun1-noun-lex &
+	     [ STEM < "balk'on" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_balcony, veranda_n_rel" ].
+
+bamba := noun1-noun-lex &
+	 [ STEM < "bamba" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_cottonwool_n_rel" ].
+
+band := noun1-noun-lex &
+	[ STEM < "band" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_rag, duster_n_rel" ].
+
+bant_27 := noun1-noun-lex &
+	   [ STEM < "bant'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_bow_n_rel" ].
+
+bat_27aⁿ := noun1-noun-lex &
+	    [ STEM < "bat'aⁿ" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_floor, ground_n_rel" ].
+
+bato := noun1-noun-lex &
+	[ STEM < "bato" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_bato (male name)_n_rel" ].
+
+bazir := noun1-noun-lex &
+	 [ STEM < "bazir" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_bazaar, market_n_rel" ].
+
+baǰ := noun1-noun-lex &
+       [ STEM < "baǰ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_brother-in-law (specifically, a mans wifes sisters husband)_n_rel" ].
+
+beber := noun1-noun-lex &
+	 [ STEM < "beber" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_older woman_n_rel" ].
+
+beǰ := noun1-noun-lex &
+       [ STEM < "beǰ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_hair_n_rel" ].
+
+beⁿ := noun1-noun-lex &
+       [ STEM < "beⁿ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_nest_n_rel" ].
+
+bodiš := noun1-noun-lex &
+	 [ STEM < "bodiš" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_apology, excuse_n_rel" ].
+
+bost_27neul := noun1-noun-lex &
+	       [ STEM < "bost'neul" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_vegetable_n_rel" ].
+
+botx := noun1-noun-lex &
+	[ STEM < "botx" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_work_n_rel" ].
+
+boʒik_27ašvili := noun1-noun-lex &
+		  [ STEM < "boʒik'ašvili" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_bodzikashvili_n_rel" ].
+
+buneb := noun1-noun-lex &
+	 [ STEM < "buneb" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_nature_n_rel" ].
+
+butː := noun1-noun-lex &
+	[ STEM < "butː" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_month-or-moon_n_rel" ].
+
+buysa := noun1-noun-lex &
+	 [ STEM < "buysa" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_night_n_rel" ].
+
+bɣuǰra := noun1-noun-lex &
+	  [ STEM < "bɣuǰra" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_usharauli_n_rel" ].
+
+bʕerc_27 := noun1-noun-lex &
+	    [ STEM < "bʕerc'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_wolf_n_rel" ].
+
+c_27a := noun1-noun-lex &
+	 [ STEM < "c'a" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_house_n_rel" ].
+
+c_27e := noun1-noun-lex &
+	 [ STEM < "c'e" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_name_n_rel" ].
+
+c_27inadadeba := noun1-noun-lex &
+		 [ STEM < "c'inadadeba" >,
+		   SYNSEM.LKEYS.KEYREL.PRED "_sentence_n_rel" ].
+
+c_27omal := noun1-noun-lex &
+	    [ STEM < "c'omal" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_drug, medicine_n_rel" ].
+
+c_27ut := noun1-noun-lex &
+	  [ STEM < "c'ut" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_minute_n_rel" ].
+
+cer_1 := noun1-noun-lex &
+	 [ STEM < "cer" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_edge, extremity-or-shore_n_rel" ].
+
+cocaniʒe := noun1-noun-lex &
+	    [ STEM < "cocaniʒe" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_cocanidze (surname)_n_rel" ].
+
+com := noun1-noun-lex &
+       [ STEM < "com" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_nothing (nom)_n_rel" ].
+
+comena := noun1-noun-lex &
+	  [ STEM < "comena" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_no one (nom)_n_rel" ].
+
+comiče := noun1-noun-lex &
+	  [ STEM < "comiče" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_nowhere_n_rel" ].
+
+coħan := noun1-noun-lex &
+	 [ STEM < "coħan" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_no one (oblique stem)_n_rel" ].
+
+cxorob := noun1-noun-lex &
+	  [ STEM < "cxorob" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_life_n_rel" ].
+
+cxovrebi := noun1-noun-lex &
+	    [ STEM < "cxovrebi" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_life (georgian)_n_rel" ].
+
+cħaʔ := noun1-noun-lex &
+	[ STEM < "cħaʔ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_not one_n_rel" ].
+
+cħaʔ_20com := noun1-noun-lex &
+	      [ STEM < "cħaʔ",
+		       "com" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_absolutely nothing_n_rel" ].
+
+dal := noun1-noun-lex &
+       [ STEM < "dal" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_god_n_rel" ].
+
+dapxna := noun1-noun-lex &
+	  [ STEM < "dapxna" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_heat, warmth_n_rel" ].
+
+dapxol := noun1-noun-lex &
+	  [ STEM < "dapxol" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_warmth_n_rel" ].
+
+daq_27ar := noun1-noun-lex &
+	    [ STEM < "daq'ar" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_food_n_rel" ].
+
+daq_27uin := noun1-noun-lex &
+	     [ STEM < "daq'uin" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_food_n_rel" ].
+
+datxur := noun1-noun-lex &
+	  [ STEM < "datxur" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_datxur_n_rel" ].
+
+daxk_27ʷ := noun1-noun-lex &
+	    [ STEM < "daxk'ʷ" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_mouse_n_rel" ].
+
+dažar := noun1-noun-lex &
+	 [ STEM < "dažar" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_grass_n_rel" ].
+
+daːxar := noun1-noun-lex &
+	  [ STEM < "daːxar" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_life_n_rel" ].
+
+de := noun1-noun-lex &
+      [ STEM < "de" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_day_n_rel" ].
+
+dik_27 := noun1-noun-lex &
+	  [ STEM < "dik'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_ax_n_rel" ].
+
+ditx := noun1-noun-lex &
+	[ STEM < "ditx" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_meat_n_rel" ].
+
+dok_27_1 := noun1-noun-lex &
+	    [ STEM < "dok'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_heart_n_rel" ].
+
+dokt_27ur := noun1-noun-lex &
+	     [ STEM < "dokt'ur" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_doctor_n_rel" ].
+
+dol := noun1-noun-lex &
+       [ STEM < "dol" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_drum_n_rel" ].
+
+don_1 := noun1-noun-lex &
+	 [ STEM < "don" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_horse_n_rel" ].
+
+doš := noun1-noun-lex &
+       [ STEM < "doš" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_word_n_rel" ].
+
+duipx := noun1-noun-lex &
+	 [ STEM < "duipx" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_clothes_n_rel" ].
+
+dɣeob := noun1-noun-lex &
+	 [ STEM < "dɣeob" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_feast, holiday_n_rel" ].
+
+elaniʒe := noun1-noun-lex &
+	   [ STEM < "elaniʒe" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_elanidze (surname)_n_rel" ].
+
+erist_27 := noun1-noun-lex &
+	    [ STEM < "erist'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_erist (male name)_n_rel" ].
+
+eva := noun1-noun-lex &
+       [ STEM < "eva" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_eva (female name)_n_rel" ].
+
+ezo := noun1-noun-lex &
+       [ STEM < "ezo" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_yard_n_rel" ].
+
+gabro := noun1-noun-lex &
+	 [ STEM < "gabro" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_gabro (male name)_n_rel" ].
+
+gadaprenadbelnatx := noun1-noun-lex &
+		     [ STEM < "gadaprenadbelnatx" >,
+		       SYNSEM.LKEYS.KEYREL.PRED "_we flew (georgian)_n_rel" ].
+
+garmon := noun1-noun-lex &
+	  [ STEM < "garmon" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_accordion_n_rel" ].
+
+gazan := noun1-noun-lex &
+	 [ STEM < "gazan" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_goat_n_rel" ].
+
+gazapxula := noun1-noun-lex &
+	     [ STEM < "gazapxula" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_spring_n_rel" ].
+
+gegm := noun1-noun-lex &
+	[ STEM < "gegm" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_plan_n_rel" ].
+
+giorg := noun1-noun-lex &
+	 [ STEM < "giorg" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_george_n_rel" ].
+
+goⁿ := noun1-noun-lex &
+       [ STEM < "goⁿ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_mind_n_rel" ].
+
+gruz := noun1-noun-lex &
+	[ STEM < "gruz" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_load, burden_n_rel" ].
+
+guar := noun1-noun-lex &
+	[ STEM < "guar" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_see (impf)_n_rel" ].
+
+gub := noun1-noun-lex &
+       [ STEM < "gub" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_pond, small lake_n_rel" ].
+
+gund := noun1-noun-lex &
+	[ STEM < "gund" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_(snow) ball_n_rel" ].
+
+gza := noun1-noun-lex &
+       [ STEM < "gza" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_road (georgian)_n_rel" ].
+
+haer := noun1-noun-lex &
+	[ STEM < "haer" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_air_n_rel" ].
+
+herop_27lan := noun1-noun-lex &
+	       [ STEM < "herop'lan" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_helicopter_n_rel" ].
+
+ianvar := noun1-noun-lex &
+	  [ STEM < "ianvar" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_january_n_rel" ].
+
+ilo := noun1-noun-lex &
+       [ STEM < "ilo" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_ilo (male name)_n_rel" ].
+
+irakli := noun1-noun-lex &
+	  [ STEM < "irakli" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_irakli (male given name)_n_rel" ].
+
+irem := noun1-noun-lex &
+	[ STEM < "irem" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_deer_n_rel" ].
+
+ist_27oria := noun1-noun-lex &
+	      [ STEM < "ist'oria" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_history_n_rel" ].
+
+iš_1 := noun1-noun-lex &
+	[ STEM < "iš" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_melody, voice, sound, tune_n_rel" ].
+
+k_27ab := noun1-noun-lex &
+	  [ STEM < "k'ab" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_dress_n_rel" ].
+
+k_27alax := noun1-noun-lex &
+	    [ STEM < "k'alax" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_gaunt (cattle)_n_rel" ].
+
+k_27atatve := noun1-noun-lex &
+	      [ STEM < "k'atatve" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_july_n_rel" ].
+
+k_27ač_27aro := noun1-noun-lex &
+		[ STEM < "k'ač'aro" >,
+		  SYNSEM.LKEYS.KEYREL.PRED "_wool:erg_n_rel" ].
+
+k_27eč_27 := noun1-noun-lex &
+	     [ STEM < "k'eč'" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_wool_n_rel" ].
+
+k_27ino := noun1-noun-lex &
+	   [ STEM < "k'ino" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_cinema, movie, film_n_rel" ].
+
+k_27ist_27 := noun1-noun-lex &
+	      [ STEM < "k'ist'" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_kist person (?)_n_rel" ].
+
+k_27it_27r := noun1-noun-lex &
+	      [ STEM < "k'it'r" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_cucumber_n_rel" ].
+
+k_27lanč_27 := noun1-noun-lex &
+	       [ STEM < "k'lanč'" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_claw, paw_n_rel" ].
+
+k_27nat := noun1-noun-lex &
+	   [ STEM < "k'nat" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_boy_n_rel" ].
+
+k_27oba := noun1-noun-lex &
+	   [ STEM < "k'oba" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_koba (male name)_n_rel" ].
+
+k_27oc_27ol := noun1-noun-lex &
+	       [ STEM < "k'oc'ol" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_braid_n_rel" ].
+
+k_27ombost_27 := noun1-noun-lex &
+		 [ STEM < "k'ombost'" >,
+		   SYNSEM.LKEYS.KEYREL.PRED "_cabbage_n_rel" ].
+
+k_27ot_27e := noun1-noun-lex &
+	      [ STEM < "k'ot'e" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_kote (male name)_n_rel" ].
+
+k_27oxiv := noun1-noun-lex &
+	    [ STEM < "k'oxiv" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_georgian (person)_n_rel" ].
+
+k_27rist_27 := noun1-noun-lex &
+	       [ STEM < "k'rist'" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_christ_n_rel" ].
+
+k_27rit_27ik_27a := noun1-noun-lex &
+		    [ STEM < "k'rit'ik'a" >,
+		      SYNSEM.LKEYS.KEYREL.PRED "_criticism_n_rel" ].
+
+k_27ur := noun1-noun-lex &
+	  [ STEM < "k'ur" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_family (house from where the smoke is coming out)_n_rel" ].
+
+k_27uxna := noun1-noun-lex &
+	    [ STEM < "k'uxna" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_kitchen_n_rel" ].
+
+kalika := noun1-noun-lex &
+	  [ STEM < "kalika" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_city_n_rel" ].
+
+kaniz := noun1-noun-lex &
+	 [ STEM < "kaniz" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_grape(s)_n_rel" ].
+
+kayrcxi := noun1-noun-lex &
+	   [ STEM < "kayrcxi" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_clothing; the wash_n_rel" ].
+
+ko := noun1-noun-lex &
+      [ STEM < "ko" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_hand_n_rel" ].
+
+kok_27 := noun1-noun-lex &
+	  [ STEM < "kok'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_leg_n_rel" ].
+
+korc_27il := noun1-noun-lex &
+	     [ STEM < "korc'il" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_wedding_n_rel" ].
+
+kori := noun1-noun-lex &
+	[ STEM < "kori" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_window_n_rel" ].
+
+kortʷ := noun1-noun-lex &
+	 [ STEM < "kortʷ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_head_n_rel" ].
+
+kotam := noun1-noun-lex &
+	 [ STEM < "kotam" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_chicken_n_rel" ].
+
+kox := noun1-noun-lex &
+       [ STEM < "kox" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_hut_n_rel" ].
+
+koǰo := noun1-noun-lex &
+	[ STEM < "koǰo" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_broom_n_rel" ].
+
+kuci := noun1-noun-lex &
+	[ STEM < "kuci" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_kutsi (female name)_n_rel" ].
+
+kurtuk_27 := noun1-noun-lex &
+	     [ STEM < "kurtuk'" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_coat_n_rel" ].
+
+lamp := noun1-noun-lex &
+	[ STEM < "lamp" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_lamp_n_rel" ].
+
+lav := noun1-noun-lex &
+       [ STEM < "lav" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_snow_n_rel" ].
+
+laša := noun1-noun-lex &
+	[ STEM < "laša" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_lasha_n_rel" ].
+
+loa := noun1-noun-lex &
+       [ STEM < "loa" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_loa_n_rel" ].
+
+lobi := noun1-noun-lex &
+	[ STEM < "lobi" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_bean_n_rel" ].
+
+lom := noun1-noun-lex &
+       [ STEM < "lom" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_mountain_n_rel" ].
+
+lomu := noun1-noun-lex &
+	[ STEM < "lomu" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_in the mountains_n_rel" ].
+
+mac_27 := noun1-noun-lex &
+	  [ STEM < "mac'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_louse_n_rel" ].
+
+madlob := noun1-noun-lex &
+	  [ STEM < "madlob" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_gratitude_n_rel" ].
+
+magnit_27opon := noun1-noun-lex &
+		 [ STEM < "magnit'opon" >,
+		   SYNSEM.LKEYS.KEYREL.PRED "_cassette player; recorder_n_rel" ].
+
+mairam := noun1-noun-lex &
+	  [ STEM < "mairam" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_mairam (female name)_n_rel" ].
+
+mak_1 := noun1-noun-lex &
+	 [ STEM < "mak" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_=on (+dat) _n_rel" ].
+
+makrena := noun1-noun-lex &
+	   [ STEM < "makrena" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_on the surface, from the top_n_rel" ].
+
+malo := noun1-noun-lex &
+	[ STEM < "malo" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_malo (female name)_n_rel" ].
+
+maluc := noun1-noun-lex &
+	 [ STEM < "maluc" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_maluc (female name)_n_rel" ].
+
+mandil := noun1-noun-lex &
+	  [ STEM < "mandil" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_hat, head shawl, kerchief_n_rel" ].
+
+maq_27_1 := noun1-noun-lex &
+	    [ STEM < "maq'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_freedom_n_rel" ].
+
+mar_20pst_27o := noun1-noun-lex &
+		 [ STEM < "mar",
+			  "pst'o" >,
+		   SYNSEM.LKEYS.KEYREL.PRED "_married couple. husband and wife, spouses_n_rel" ].
+
+marit_27a := noun1-noun-lex &
+	     [ STEM < "marit'a" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_marita (female name)_n_rel" ].
+
+mastxov := noun1-noun-lex &
+	   [ STEM < "mastxov" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_enemy_n_rel" ].
+
+mat_27r := noun1-noun-lex &
+	   [ STEM < "mat'r" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_lunch_n_rel" ].
+
+matx := noun1-noun-lex &
+	[ STEM < "matx" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_sun_n_rel" ].
+
+max := noun1-noun-lex &
+       [ STEM < "max" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_price_n_rel" ].
+
+maz := noun1-noun-lex &
+       [ STEM < "maz" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_lubricant, shoe polish?_n_rel" ].
+
+mač_27ar := noun1-noun-lex &
+	    [ STEM < "mač'ar" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_wine; young wine_n_rel" ].
+
+maːx := noun1-noun-lex &
+	[ STEM < "maːx" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_needle_n_rel" ].
+
+maːšina := noun1-noun-lex &
+	   [ STEM < "maːšina" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_truck_n_rel" ].
+
+megzur := noun1-noun-lex &
+	  [ STEM < "megzur" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_guide_n_rel" ].
+
+memcxor := noun1-noun-lex &
+	   [ STEM < "memcxor" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_sheep-breeder_n_rel" ].
+
+menax := noun1-noun-lex &
+	 [ STEM < "menax" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_someone_n_rel" ].
+
+mene := noun1-noun-lex &
+	[ STEM < "mene" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_who (relative pronoun nom)_n_rel" ].
+
+menxu := noun1-noun-lex &
+	 [ STEM < "menxu" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_which (nom)_n_rel" ].
+
+meq := noun1-noun-lex &
+       [ STEM < "meq" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_bread_n_rel" ].
+
+meterat_27e := noun1-noun-lex &
+	       [ STEM < "meterat'e" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_metrada (dagestan)_n_rel" ].
+
+meč_27ar := noun1-noun-lex &
+	    [ STEM < "meč'ar" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_fisherman_n_rel" ].
+
+mešok := noun1-noun-lex &
+	 [ STEM < "mešok" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_sack, bag_n_rel" ].
+
+mit_27o := noun1-noun-lex &
+	   [ STEM < "mit'o" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_mito (male given name)_n_rel" ].
+
+mičħe := noun1-noun-lex &
+	 [ STEM < "mičħe" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_where_n_rel" ].
+
+mogzaurob := noun1-noun-lex &
+	     [ STEM < "mogzaurob" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_travel_n_rel" ].
+
+moq := noun1-noun-lex &
+       [ STEM < "moq" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_song, verse_n_rel" ].
+
+mosaval := noun1-noun-lex &
+	   [ STEM < "mosaval" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_harvest_n_rel" ].
+
+mose := noun1-noun-lex &
+	[ STEM < "mose" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_mose (male name)_n_rel" ].
+
+mot_27ː := noun1-noun-lex &
+	   [ STEM < "mot'ː" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_language_n_rel" ].
+
+moħ := noun1-noun-lex &
+       [ STEM < "moħ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_how_n_rel" ].
+
+mtatušeti := noun1-noun-lex &
+	     [ STEM < "mtatušeti" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_tusheti mountain region_n_rel" ].
+
+musik_27a := noun1-noun-lex &
+	     [ STEM < "musik'a" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_music_n_rel" ].
+
+muɣ := noun1-noun-lex &
+       [ STEM < "muɣ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_tail_n_rel" ].
+
+namcvar := noun1-noun-lex &
+	   [ STEM < "namcvar" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_pastry_n_rel" ].
+
+nanvaš := noun1-noun-lex &
+	  [ STEM < "nanvaš" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_uncle (mothers brother)_n_rel" ].
+
+naq_27bist_27 := noun1-noun-lex &
+		 [ STEM < "naq'bist'" >,
+		   SYNSEM.LKEYS.KEYREL.PRED "_friend_n_rel" ].
+
+nax := noun1-noun-lex &
+       [ STEM < "nax" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_people_n_rel" ].
+
+nač_27er := noun1-noun-lex &
+	    [ STEM < "nač'er" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_piece _n_rel" ].
+
+nek_27 := noun1-noun-lex &
+	  [ STEM < "nek'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_knife_n_rel" ].
+
+nic_27q_27 := noun1-noun-lex &
+	      [ STEM < "nic'q'" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_strength, force_n_rel" ].
+
+nik_27 := noun1-noun-lex &
+	  [ STEM < "nik'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_niko_n_rel" ].
+
+niq_27 := noun1-noun-lex &
+	  [ STEM < "niq'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_road_n_rel" ].
+
+nisa := noun1-noun-lex &
+	[ STEM < "nisa" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_nisa_n_rel" ].
+
+nokar := noun1-noun-lex &
+	 [ STEM < "nokar" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_shop assistant_n_rel" ].
+
+obi := noun1-noun-lex &
+       [ STEM < "obi" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_3pl.nom / those ones_n_rel" ].
+
+odeyal := noun1-noun-lex &
+	  [ STEM < "odeyal" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_blanket_n_rel" ].
+
+oqar := noun1-noun-lex &
+	[ STEM < "oqar" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_3pl.erg / those ones_n_rel" ].
+
+oqarn := noun1-noun-lex &
+	 [ STEM < "oqarn" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_3pl.dat / those ones_n_rel" ].
+
+oquiⁿ := noun1-noun-lex &
+	 [ STEM < "oquiⁿ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_3s.gen / that one_n_rel" ].
+
+orat_27or := noun1-noun-lex &
+	     [ STEM < "orat'or" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_orator, speaker_n_rel" ].
+
+oǰax_1 := noun1-noun-lex &
+	  [ STEM < "oǰax" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_family_n_rel" ].
+
+p_27ay := noun1-noun-lex &
+	  [ STEM < "p'ay" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_kiss_n_rel" ].
+
+p_27ep_27el := noun1-noun-lex &
+	       [ STEM < "p'ep'el" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_butterfly_n_rel" ].
+
+p_27eč_27 := noun1-noun-lex &
+	     [ STEM < "p'eč'" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_oven_n_rel" ].
+
+p_27olya := noun1-noun-lex &
+	    [ STEM < "p'olya" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_floor_n_rel" ].
+
+p_27remia := noun1-noun-lex &
+	     [ STEM < "p'remia" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_award_n_rel" ].
+
+pešk_27ar := noun1-noun-lex &
+	     [ STEM < "pešk'ar" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_(dim) boy, child_n_rel" ].
+
+pilip_27o := noun1-noun-lex &
+	     [ STEM < "pilip'o" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_philip_n_rel" ].
+
+pol := noun1-noun-lex &
+       [ STEM < "pol" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_floor_n_rel" ].
+
+pħe := noun1-noun-lex &
+       [ STEM < "pħe" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_village_n_rel" ].
+
+pħere := noun1-noun-lex &
+	 [ STEM < "pħere" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_villager_n_rel" ].
+
+pħor := noun1-noun-lex &
+	[ STEM < "pħor" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_supper_n_rel" ].
+
+pšel_1 := noun1-noun-lex &
+	  [ STEM < "pšel" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_cold_n_rel" ].
+
+q_27ač_27 := noun1-noun-lex &
+	     [ STEM < "q'ač'" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_thread_n_rel" ].
+
+q_27uv := noun1-noun-lex &
+	  [ STEM < "q'uv" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_thief_n_rel" ].
+
+qer := noun1-noun-lex &
+       [ STEM < "qer" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_stone_n_rel" ].
+
+qor_1 := noun1-noun-lex &
+	 [ STEM < "qor" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_apple_n_rel" ].
+
+raik_27evšr := noun1-noun-lex &
+	       [ STEM < "raik'evšr" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_raipo?_n_rel" ].
+
+raion := noun1-noun-lex &
+	 [ STEM < "raion" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_district, region_n_rel" ].
+
+recep_27t_27 := noun1-noun-lex &
+		[ STEM < "recep't'" >,
+		  SYNSEM.LKEYS.KEYREL.PRED "_recipe_n_rel" ].
+
+redup_1 := noun1-noun-lex &
+	   [ STEM < "redup" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_full reduplication_n_rel" ].
+
+sa_1 := noun1-noun-lex &
+	[ STEM < "sa" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_spirit, soul_n_rel" ].
+
+sabaⁿ := noun1-noun-lex &
+	 [ STEM < "sabaⁿ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_blanket, bed_n_rel" ].
+
+sabed := noun1-noun-lex &
+	 [ STEM < "sabed" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_sabed (female name)_n_rel" ].
+
+sag := noun1-noun-lex &
+       [ STEM < "sag" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_deer_n_rel" ].
+
+sakm := noun1-noun-lex &
+	[ STEM < "sakm" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_business, work, act, matter_n_rel" ].
+
+saliana := noun1-noun-lex &
+	   [ STEM < "saliana" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_saliana (a region)_n_rel" ].
+
+salpet_27k_27 := noun1-noun-lex &
+		 [ STEM < "salpet'k'" >,
+		   SYNSEM.LKEYS.KEYREL.PRED "_napkin_n_rel" ].
+
+samušo := noun1-noun-lex &
+	  [ STEM < "samušo" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_work_n_rel" ].
+
+samzarelo := noun1-noun-lex &
+	     [ STEM < "samzarelo" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_kitchen_n_rel" ].
+
+sanaʒlev := noun1-noun-lex &
+	    [ STEM < "sanaʒlev" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_wager, bet_n_rel" ].
+
+sani := noun1-noun-lex &
+	[ STEM < "sani" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_doors_n_rel" ].
+
+sapexri := noun1-noun-lex &
+	   [ STEM < "sapexri" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_steps_n_rel" ].
+
+sapuʒvel := noun1-noun-lex &
+	    [ STEM < "sapuʒvel" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_foundations, basis, roots_n_rel" ].
+
+sara := noun1-noun-lex &
+	[ STEM < "sara" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_sara (female name)_n_rel" ].
+
+satvali := noun1-noun-lex &
+	   [ STEM < "satvali" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_glasses_n_rel" ].
+
+sazɣvargaret := noun1-noun-lex &
+		[ STEM < "sazɣvargaret" >,
+		  SYNSEM.LKEYS.KEYREL.PRED "_abroad_n_rel" ].
+
+sačukar := noun1-noun-lex &
+	   [ STEM < "sačukar" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_gift_n_rel" ].
+
+sicx := noun1-noun-lex &
+	[ STEM < "sicx" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_heat, warmth_n_rel" ].
+
+simdidr := noun1-noun-lex &
+	   [ STEM < "simdidr" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_wealth_n_rel" ].
+
+simind := noun1-noun-lex &
+	  [ STEM < "simind" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_corn_n_rel" ].
+
+sinatl := noun1-noun-lex &
+	  [ STEM < "sinatl" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_light_n_rel" ].
+
+sirane := noun1-noun-lex &
+	  [ STEM < "sirane" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_sirane (female name)_n_rel" ].
+
+siʒ := noun1-noun-lex &
+       [ STEM < "siʒ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_son-in-law, brother-in-law_n_rel" ].
+
+siʒina := noun1-noun-lex &
+	  [ STEM < "siʒina" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_in-law(s)?_n_rel" ].
+
+sk_27ola := noun1-noun-lex &
+	    [ STEM < "sk'ola" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_school_n_rel" ].
+
+st_27ak_27 := noun1-noun-lex &
+	      [ STEM < "st'ak'" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_man, person, human_n_rel" ].
+
+st_27at_27ist_27ik_27a := noun1-noun-lex &
+			  [ STEM < "st'at'ist'ik'a" >,
+			    SYNSEM.LKEYS.KEYREL.PRED "_statistics, perhaps survey? _n_rel" ].
+
+st_27en := noun1-noun-lex &
+	   [ STEM < "st'en" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_something (oblique stem)_n_rel" ].
+
+st_27eplaʔo := noun1-noun-lex &
+	       [ STEM < "st'eplaʔo" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_carrot_n_rel" ].
+
+st_27ol := noun1-noun-lex &
+	   [ STEM < "st'ol" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_table_n_rel" ].
+
+st_27udent_27 := noun1-noun-lex &
+		 [ STEM < "st'udent'" >,
+		   SYNSEM.LKEYS.KEYREL.PRED "_student_n_rel" ].
+
+sup := noun1-noun-lex &
+       [ STEM < "sup" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_soup_n_rel" ].
+
+surat := noun1-noun-lex &
+	 [ STEM < "surat" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_picture, photo_n_rel" ].
+
+sxal := noun1-noun-lex &
+	[ STEM < "sxal" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_pear (fruit and tree)_n_rel" ].
+
+t_27ark_27 := noun1-noun-lex &
+	      [ STEM < "t'ark'" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_finger_n_rel" ].
+
+t_27ateb := noun1-noun-lex &
+	    [ STEM < "t'ateb" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_silver_n_rel" ].
+
+t_27ilo := noun1-noun-lex &
+	   [ STEM < "t'ilo" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_canvas, sackcloth; sack made from canvas_n_rel" ].
+
+t_27ort_27 := noun1-noun-lex &
+	      [ STEM < "t'ort'" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_cake_n_rel" ].
+
+t_27ʕir := noun1-noun-lex &
+	   [ STEM < "t'ʕir" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_planet-or-star_n_rel" ].
+
+tataⁿ := noun1-noun-lex &
+	 [ STEM < "tataⁿ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_noise, voice_n_rel" ].
+
+telzi := noun1-noun-lex &
+	 [ STEM < "telzi" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_saddlebags_n_rel" ].
+
+tepš := noun1-noun-lex &
+	[ STEM < "tepš" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_plate_n_rel" ].
+
+tuiseb := noun1-noun-lex &
+	  [ STEM < "tuiseb" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_quality, qualities?_n_rel" ].
+
+txeⁿ := noun1-noun-lex &
+	[ STEM < "txeⁿ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_1pl.excl.gen_n_rel" ].
+
+txo := noun1-noun-lex &
+       [ STEM < "txo" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_1pl.excl_n_rel" ].
+
+uara := noun1-noun-lex &
+	[ STEM < "uara" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_refusal, denial_n_rel" ].
+
+uistx := noun1-noun-lex &
+	 [ STEM < "uistx" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_sheep (adult female)_n_rel" ].
+
+učit_27el := noun1-noun-lex &
+	     [ STEM < "učit'el" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_teacher_n_rel" ].
+
+valik_27 := noun1-noun-lex &
+	    [ STEM < "valik'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_valiko (name)_n_rel" ].
+
+vašban := noun1-noun-lex &
+	  [ STEM < "vašban" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_each other_n_rel" ].
+
+vašo := noun1-noun-lex &
+	[ STEM < "vašo" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_brother_n_rel" ].
+
+važk_27ac := noun1-noun-lex &
+	     [ STEM < "važk'ac" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_brave, macho?_n_rel" ].
+
+ve := noun1-noun-lex &
+      [ STEM < "ve" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_1pl.incl-or-our (oblique)_n_rel" ].
+
+vedr := noun1-noun-lex &
+	[ STEM < "vedr" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_bucket_n_rel" ].
+
+vir := dd_nouns-noun-lex &
+       [ STEM < "vir" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_donkey_n_rel" ].
+
+voħ := noun1-noun-lex &
+       [ STEM < "voħ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_son_n_rel" ].
+
+vum := noun1-noun-lex &
+       [ STEM < "vum" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_something_n_rel" ].
+
+vunax := noun1-noun-lex &
+	 [ STEM < "vunax" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_something_n_rel" ].
+
+vune := noun1-noun-lex &
+	[ STEM < "vune" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_what, that. (conjunctive word)_n_rel" ].
+
+vuxe := noun1-noun-lex &
+	[ STEM < "vuxe" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_that (relative pronoun nom)_n_rel" ].
+
+xalat := noun1-noun-lex &
+	 [ STEM < "xalat" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_house coat_n_rel" ].
+
+xaxʷ := noun1-noun-lex &
+	[ STEM < "xaxʷ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_onion_n_rel" ].
+
+xaⁿ := noun1-noun-lex &
+       [ STEM < "xaⁿ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_time_n_rel" ].
+
+xelpas := noun1-noun-lex &
+	  [ STEM < "xelpas" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_wage, salary_n_rel" ].
+
+xen := noun1-noun-lex &
+       [ STEM < "xen" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_tree_n_rel" ].
+
+xi := noun1-noun-lex &
+      [ STEM < "xi" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_water, river-or-water.abs_n_rel" ].
+
+xink_27al := noun1-noun-lex &
+	     [ STEM < "xink'al" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_khinkali_n_rel" ].
+
+xorbal := noun1-noun-lex &
+	  [ STEM < "xorbal" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_wheat_n_rel" ].
+
+xušeti := noun1-noun-lex &
+	  [ STEM < "xušeti" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_khushet (dagestan)_n_rel" ].
+
+yašo := noun1-noun-lex &
+	[ STEM < "yašo" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_sister_n_rel" ].
+
+yeg := noun1-noun-lex &
+       [ STEM < "yeg" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_beer_n_rel" ].
+
+yetː := noun1-noun-lex &
+	[ STEM < "yetː" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_cow_n_rel" ].
+
+yoħ := noun1-noun-lex &
+       [ STEM < "yoħ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_daughter-or-girl_n_rel" ].
+
+yuħ := noun1-noun-lex &
+       [ STEM < "yuħ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_face_n_rel" ].
+
+zezv := noun1-noun-lex &
+	[ STEM < "zezv" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_zezva_n_rel" ].
+
+zɣap_27ar := noun1-noun-lex &
+	     [ STEM < "zɣap'ar" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_fairy tale, story_n_rel" ].
+
+č_27ax-kux := noun1-noun-lex &
+	      [ STEM < "č'ax-kux" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_thunder crack_n_rel" ].
+
+č_27aːr := noun1-noun-lex &
+	   [ STEM < "č'aːr" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_fish_n_rel" ].
+
+č_27urč_27el := noun1-noun-lex &
+		[ STEM < "č'urč'el" >,
+		  SYNSEM.LKEYS.KEYREL.PRED "_dishes_n_rel" ].
+
+ča := noun1-noun-lex &
+      [ STEM < "ča" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_bear_n_rel" ].
+
+čam := noun1-noun-lex &
+       [ STEM < "čam" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_taste_n_rel" ].
+
+čaqa := noun1-noun-lex &
+	[ STEM < "čaqa" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_distance_n_rel" ].
+
+čo := noun1-noun-lex &
+      [ STEM < "čo" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_fur_n_rel" ].
+
+čuħ := noun1-noun-lex &
+       [ STEM < "čuħ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_inside, at home_n_rel" ].
+
+ħaš := noun1-noun-lex &
+       [ STEM < "ħaš" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_guest_n_rel" ].
+
+ħuⁿ := noun1-noun-lex &
+       [ STEM < "ħuⁿ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_woods, forest_n_rel" ].
+
+šare := noun1-noun-lex &
+	[ STEM < "šare" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_paved (road), main road_n_rel" ].
+
+šindri := noun1-noun-lex &
+	  [ STEM < "šindri" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_socks_n_rel" ].
+
+šič := noun1-noun-lex &
+       [ STEM < "šič" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_cousin (only children of sisters)_n_rel" ].
+
+šo := noun1-noun-lex &
+      [ STEM < "šo" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_year_n_rel" ].
+
+šukia := noun1-noun-lex &
+	 [ STEM < "šukia" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_shukia (female  name)_n_rel" ].
+
+žagno := noun1-noun-lex &
+	 [ STEM < "žagno" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_book_n_rel" ].
+
+že := noun1-noun-lex &
+      [ STEM < "že" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_sheep_n_rel" ].
+
+žerʷ := noun1-noun-lex &
+	[ STEM < "žerʷ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_widow (rarely: widower)_n_rel" ].
+
+ǰemal := noun1-noun-lex &
+	 [ STEM < "ǰemal" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_jamal (male name)_n_rel" ].
+
+ǰemo := noun1-noun-lex &
+	[ STEM < "ǰemo" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_jemo (male name)_n_rel" ].
+
+ɣaⁿ := noun1-noun-lex &
+       [ STEM < "ɣaⁿ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_dream_n_rel" ].
+
+ɣoč_27 := noun1-noun-lex &
+	  [ STEM < "ɣoč'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_stick_n_rel" ].
+
+ʒaʒŏ := noun1-noun-lex &
+	[ STEM < "ʒaʒŏ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_dzadzo (female name)_n_rel" ].
+
+ʕa := noun1-noun-lex &
+      [ STEM < "ʕa" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_winter_n_rel" ].
+
+ʕabik_27 := noun1-noun-lex &
+	    [ STEM < "ʕabik'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_spoon_n_rel" ].
+
+ʡok_27 := noun1-noun-lex &
+	  [ STEM < "ʡok'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_crescent-shaped pastry_n_rel" ].
+
+ʡurdna := noun1-noun-lex &
+	  [ STEM < "ʡurdna" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_morning_n_rel" ].
+
+anik_27o := noun1-noun-lex &
+	    [ STEM < "anik'o" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_aniko (female name)_n_rel" ].
+
+daɣest_27an := noun1-noun-lex &
+	       [ STEM < "daɣest'an" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_dagestan (russia)_n_rel" ].
+
+godor := noun1-noun-lex &
+	 [ STEM < "godor" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_basket_n_rel" ].
+
+k_27alat := noun1-noun-lex &
+	    [ STEM < "k'alat" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_basket_n_rel" ].
+
+naǰeq := noun1-noun-lex &
+	 [ STEM < "naǰeq" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_hatchet_n_rel" ].
+
+ħac_27uk_27 := noun1-noun-lex &
+	       [ STEM < "ħac'uk'" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_bird_n_rel" ].
+
+bacav := noun1-noun-lex &
+	 [ STEM < "bacav" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_bats person (male?)_n_rel" ].
+
+lac_27ar := noun1-noun-lex &
+	    [ STEM < "lac'ar" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_pain, ache, illness, sickness_n_rel" ].
+
+mehir := noun1-noun-lex &
+	 [ STEM < "mehir" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_mehir (female name)_n_rel" ].
+
+c_27ova := noun1-noun-lex &
+	   [ STEM < "c'ova" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_tsova (person?)_n_rel" ].
+
+cix := noun1-noun-lex &
+       [ STEM < "cix" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_fortress_n_rel" ].
+
+kveq_27aⁿ := noun1-noun-lex &
+	     [ STEM < "kveq'aⁿ" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_country; world_n_rel" ].
+
+rost_27om := noun1-noun-lex &
+	     [ STEM < "rost'om" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_rostom (male name)_n_rel" ].
+
+menux := noun1-noun-lex &
+	 [ STEM < "menux" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_which one_n_rel" ].
+
+saq_27vedur := noun1-noun-lex &
+	       [ STEM < "saq'vedur" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_reprimand_n_rel" ].
+
+učiⁿ := noun1-noun-lex &
+	[ STEM < "učiⁿ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_darkness_n_rel" ].
+
+ǰam := noun1-noun-lex &
+       [ STEM < "ǰam" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_bowl_n_rel" ].
+
+oquin := noun1-noun-lex &
+	 [ STEM < "oquin" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_3s.dat / that one_n_rel" ].
+
+alzaⁿ := noun2-noun-lex &
+	 [ STEM < "alzaⁿ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_alazani river_n_rel" ].
+
+andri := noun2-noun-lex &
+	 [ STEM < "andri" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_andri_n_rel" ].
+
+eq_1 := noun2-noun-lex &
+	[ STEM < "eq" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_this (obl)_n_rel" ].
+
+esmaⁿ := noun2-noun-lex &
+	 [ STEM < "esmaⁿ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_esman (female name)_n_rel" ].
+
+manana := noun2-noun-lex &
+	  [ STEM < "manana" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_manana (female name)_n_rel" ].
+
+maxk_27ar := noun2-noun-lex &
+	     [ STEM < "maxk'ar" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_girls_n_rel" ].
+
+tamde := noun2-noun-lex &
+	 [ STEM < "tamde" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_tamada:erg_n_rel" ].
+
+vai := noun2-noun-lex &
+       [ STEM < "vai" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_1pl.incl_n_rel" ].
+
+č_27amp_27o := noun2-noun-lex &
+	       [ STEM < "č'amp'o" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_champo (male name)_n_rel" ].
+
+anet_27 := noun4-noun-lex &
+	   [ STEM < "anet'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_anet (female name)_n_rel" ].
+
+bolʷ := noun4-noun-lex &
+	[ STEM < "bolʷ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_end_n_rel" ].
+
+muyt_27i := noun4-noun-lex &
+	    [ STEM < "muyt'i" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_mud, dirt, dirtiness_n_rel" ].
+
+xalx := noun4-noun-lex &
+	[ STEM < "xalx" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_people_n_rel" ].
+
+xasavyurt_27 := noun4-noun-lex &
+		[ STEM < "xasavyurt'" >,
+		  SYNSEM.LKEYS.KEYREL.PRED "_khasavyurt (dagestan)_n_rel" ].
+
+čak_27ʷ := noun4-noun-lex &
+	   [ STEM < "čak'ʷ" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_chair_n_rel" ].
+
+čaɣmart := noun4-noun-lex &
+	   [ STEM < "čaɣmart" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_chaghmo-tush person_n_rel" ].
+
+at_27am := noun7-noun-lex &
+	   [ STEM < "at'am" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_peach (fruit and tree)_n_rel" ].
+
+badrenbader := noun7-noun-lex &
+	       [ STEM < "badrenbader" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_grandchild_n_rel" ].
+
+bubk_27 := noun7-noun-lex &
+	   [ STEM < "bubk'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_flower-pl_n_rel" ].
+
+bunag := noun7-noun-lex &
+	 [ STEM < "bunag" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_dishes_n_rel" ].
+
+bʕark_27 := noun7-noun-lex &
+	    [ STEM < "bʕark'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_eye_n_rel" ].
+
+gagn := noun7-noun-lex &
+	[ STEM < "gagn" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_eggs_n_rel" ].
+
+k_27nut_27 := noun7-noun-lex &
+	      [ STEM < "k'nut'" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_kitten_n_rel" ].
+
+k_27rat_27er := noun7-noun-lex &
+		[ STEM < "k'rat'er" >,
+		  SYNSEM.LKEYS.KEYREL.PRED "_crater_n_rel" ].
+
+maq_27ar := noun7-noun-lex &
+	    [ STEM < "maq'ar" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_wedding guest on the brides side_n_rel" ].
+
+mʕaʔo := noun7-noun-lex &
+	 [ STEM < "mʕaʔo" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_horn_n_rel" ].
+
+p_27ʕaⁿ := noun7-noun-lex &
+	   [ STEM < "p'ʕaⁿ" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_wing_n_rel" ].
+
+qa := noun7-noun-lex &
+      [ STEM < "qa" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_pig_n_rel" ].
+
+qor_2 := noun7-noun-lex &
+	 [ STEM < "qor" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_apple tree_n_rel" ].
+
+rus := noun7-noun-lex &
+       [ STEM < "rus" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_russian (person)_n_rel" ].
+
+st_27em := noun7-noun-lex &
+	   [ STEM < "st'em" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_something (oblique stem)_n_rel" ].
+
+tant := noun7-noun-lex &
+	[ STEM < "tant" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_ant_n_rel" ].
+
+šp_27ilk := noun7-noun-lex &
+	    [ STEM < "šp'ilk" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_clothespin_n_rel" ].
+
+lek_27 := noun7-noun-lex &
+	  [ STEM < "lek'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_lezghin (person)_n_rel" ].
+
+mezobel := noun7-noun-lex &
+	   [ STEM < "mezobel" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_neighbor_n_rel" ].
+
+baxt_27ar := noun13-noun-lex &
+	     [ STEM < "baxt'ar" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_the baxtarishvilis had_n_rel" ].
+
+grisk_27ašvili := noun13-noun-lex &
+		  [ STEM < "grisk'ašvili" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_the griskashvilis?_n_rel" ].
+
+k_27ok_27oš := noun13-noun-lex &
+	       [ STEM < "k'ok'oš" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_at kokošs?_n_rel" ].
+
+ɣod := noun13-noun-lex &
+       [ STEM < "ɣod" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_the lagadzidzes_n_rel" ].
+
+aɣ_1 := noun22-noun-lex &
+	[ STEM < "aɣ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_come (impf, preradical cm)_n_rel" ].
+
+ik_27_1 := noun22-noun-lex &
+	   [ STEM < "ik'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_take away, carry away (preradical cm)_n_rel" ].
+
+or_1 := noun22-noun-lex &
+	[ STEM < "or" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_make (past tense; +gender agmt)_n_rel" ].
+
+dartlo := noun25-noun-lex &
+	  [ STEM < "dartlo" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_dartlo (mountain village)_n_rel" ].
+
+duq := noun29-noun-lex &
+       [ STEM < "duq" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_many, much_n_rel" ].
+
+pst_27u_1 := noun29-noun-lex &
+	     [ STEM < "pst'u" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_wife_n_rel" ].
+
+qenaʔ := noun29-noun-lex &
+	 [ STEM < "qenaʔ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_another (one)_n_rel" ].
+
+ħanax := noun29-noun-lex &
+	 [ STEM < "ħanax" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_someone (oblique stem)_n_rel" ].
+
+otː_1 := noun72-noun-lex &
+	 [ STEM < "otː" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_stand, stay (no cm)_n_rel" ].
+
+p_27erang := noun75-noun-lex &
+	     [ STEM < "p'erang" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_shirt-on-loc_n_rel" ].
+
+tiv := noun92-noun-lex &
+       [ STEM < "tiv" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_rest, relax_n_rel" ].
+
+aqːo := noun94-noun-lex &
+	[ STEM < "aqːo" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_big (+preradical cm)_n_rel" ].
+
+ax_1 := noun94-noun-lex &
+	[ STEM < "ax" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_go (+pre-radical cm)_n_rel" ].
+
+čak_27unt_27ad_1 := noun103-noun-lex &
+		    [ STEM < "čak'unt'ad" >,
+		      SYNSEM.LKEYS.KEYREL.PRED "_squat (post-radical cm?)_n_rel" ].
+
+ħann := noun109-noun-lex &
+	[ STEM < "ħann" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_who (dat)_n_rel" ].
+
+asfalt_27 := noun109-noun-lex &
+	     [ STEM < "asfalt'" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_asphalt_n_rel" ].
+
+avt_27andil := noun109-noun-lex &
+	       [ STEM < "avt'andil" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_avandil (male name)_n_rel" ].
+
+batuk_27 := noun109-noun-lex &
+	    [ STEM < "batuk'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_batuk (female name)_n_rel" ].
+
+c_27q_27ar := noun109-noun-lex &
+	      [ STEM < "c'q'ar" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_spring (water source)_n_rel" ].
+
+don_2 := noun109-noun-lex &
+	 [ STEM < "don" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_horse-sg-erg_n_rel" ].
+
+gago := noun109-noun-lex &
+	[ STEM < "gago" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_knee_n_rel" ].
+
+kuso := noun109-noun-lex &
+	[ STEM < "kuso" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_kuso (male name)_n_rel" ].
+
+lela := noun109-noun-lex &
+	[ STEM < "lela" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_lela (female name)_n_rel" ].
+
+levan := noun109-noun-lex &
+	 [ STEM < "levan" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_levan (male name)_n_rel" ].
+
+lečur := noun109-noun-lex &
+	 [ STEM < "lečur" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_lečuri (village)_n_rel" ].
+
+macaⁿ := noun109-noun-lex &
+	 [ STEM < "macaⁿ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_when_n_rel" ].
+
+mart_27 := noun109-noun-lex &
+	   [ STEM < "mart'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_march_n_rel" ].
+
+met_27q_27ev := noun109-noun-lex &
+		[ STEM < "met'q'ev" >,
+		  SYNSEM.LKEYS.KEYREL.PRED "_forester_n_rel" ].
+
+met_27r := noun109-noun-lex &
+	   [ STEM < "met'r" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_meter_n_rel" ].
+
+;;meⁿ_1 := noun109-noun-lex &
+;;	 [ STEM < "meⁿ" >,
+;;	   SYNSEM.LKEYS.KEYREL.PRED "_who (nom.s)_n_rel" ].
+
+mixeil := noun109-noun-lex &
+	  [ STEM < "mixeil" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_mikhail_n_rel" ].
+
+mič := noun109-noun-lex &
+       [ STEM < "mič" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_where (direction)_n_rel" ].
+
+mod := noun109-noun-lex &
+       [ STEM < "mod" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_style_n_rel" ].
+
+mosaxleob := noun109-noun-lex &
+	     [ STEM < "mosaxleob" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_population, residents_n_rel" ].
+
+ok_27ošk_27 := noun109-noun-lex &
+	       [ STEM < "ok'ošk'" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_window(sill)_n_rel" ].
+
+otax := noun109-noun-lex &
+	[ STEM < "otax" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_room_n_rel" ].
+
+p_27irsaxoc := noun109-noun-lex &
+	       [ STEM < "p'irsaxoc" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_towel_n_rel" ].
+
+p_27rocent_27 := noun109-noun-lex &
+		 [ STEM < "p'rocent'" >,
+		   SYNSEM.LKEYS.KEYREL.PRED "_percent_n_rel" ].
+
+permer := noun109-noun-lex &
+	  [ STEM < "permer" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_farmer_n_rel" ].
+
+set_27q_27o := noun109-noun-lex &
+	       [ STEM < "set'q'o" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_hail, storm_n_rel" ].
+
+vuⁿ := noun109-noun-lex &
+       [ STEM < "vuⁿ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_why_n_rel" ].
+
+xirurg := noun109-noun-lex &
+	  [ STEM < "xirurg" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_surgeon_n_rel" ].
+
+čal := noun109-noun-lex &
+       [ STEM < "čal" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_straw, bulrush_n_rel" ].
+
+ħen_1 := noun109-noun-lex &
+	 [ STEM < "ħen" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_whose_n_rel" ].
+
+šlang := noun109-noun-lex &
+	 [ STEM < "šlang" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_hose_n_rel" ].
+
+bar := noun109-noun-lex &
+       [ STEM < "bar" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_valley, lowland_n_rel" ].
+
+dik_27lo := noun109-noun-lex &
+	    [ STEM < "dik'lo" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_diklo (georgia)_n_rel" ].
+
+int_27ernet_27 := noun109-noun-lex &
+		  [ STEM < "int'ernet'" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_internet_n_rel" ].
+
+mebaže := noun109-noun-lex &
+	  [ STEM < "mebaže" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_in the garden_n_rel" ].
+
+mič_27rit_27aⁿ := noun109-noun-lex &
+		  [ STEM < "mič'rit'aⁿ" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_mirror_n_rel" ].
+
+msoplio := noun109-noun-lex &
+	   [ STEM < "msoplio" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_world_n_rel" ].
+
+p_27arask_27in := noun109-noun-lex &
+		  [ STEM < "p'arask'in" >,
+		    SYNSEM.LKEYS.KEYREL.PRED "_friday_n_rel" ].
+
+t_27ibet_27 := noun109-noun-lex &
+	       [ STEM < "t'ibet'" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_tibet_n_rel" ].
+
+vaⁿ := noun109-noun-lex &
+       [ STEM < "vaⁿ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_ bathtub_n_rel" ].
+
+as := noun110-noun-lex &
+      [ STEM < "as" >,
+	SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+aħo := noun111-noun-lex &
+       [ STEM < "aħo" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+eš_1 := noun112-noun-lex &
+	[ STEM < "eš" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+sen := noun113-noun-lex &
+       [ STEM < "sen" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+ħen_2 := noun114-noun-lex &
+	 [ STEM < "ħen" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+ħo := noun115-noun-lex &
+      [ STEM < "ħo" >,
+	SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+šu := noun116-noun-lex &
+      [ STEM < "šu" >,
+	SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+šun := noun117-noun-lex &
+       [ STEM < "šun" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+p_27acient_27 := noun118-noun-lex &
+		 [ STEM < "p'acient'" >,
+		   SYNSEM.LKEYS.KEYREL.PRED "_patient_n_rel" ].
+
+equs_1 := singular_ergative_demonstratives-noun-lex &
+	  [ STEM < "equs" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_this_one_n_rel" ].
+
+icxus := singular_ergative_demonstratives-noun-lex &
+	 [ STEM < "icxus" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_that_one_n_rel" ].
+
+oqus := singular_ergative_demonstratives-noun-lex &
+	[ STEM < "oqus" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_yon_one_n_rel" ].
+
+e_1 := singular_absolutive_demonstratives-noun-lex &
+       [ STEM < "e" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_this_one_n_rel" ].
+
+i := singular_absolutive_demonstratives-noun-lex &
+     [ STEM < "i" >,
+       SYNSEM.LKEYS.KEYREL.PRED "_that_one_n_rel" ].
+
+o_1 := singular_absolutive_demonstratives-noun-lex &
+       [ STEM < "o" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_yon_one_n_rel" ].
+
+equi := oblique-stem-demonstratives-noun-lex &
+	[ STEM < "equi" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_this_one_n_rel" ].
+
+icxui := oblique-stem-demonstratives-noun-lex &
+	 [ STEM < "icxui" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_that_one_n_rel" ].
+
+oqui := oblique-stem-demonstratives-noun-lex &
+	[ STEM < "oqui" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_yon_one_n_rel" ].
+
+so_1 := 1sg-abs-noun-lex &
+	[ STEM < "so" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "pron_rel" ].
+
+nan := jd_nouns-noun-lex &
+       [ STEM < "nan" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_mother_n_rel" ].
+
+ag_1 := jd_nouns-noun-lex &
+	[ STEM < "ag" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_grandmother_n_rel" ].
+
+pst_27u_2 := jd_nouns-noun-lex &
+	     [ STEM < "pst'u" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_woman_n_rel" ].
+
+mar := vb_nouns-noun-lex &
+       [ STEM < "mar" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_husband_n_rel" ].
+
+dad := vb_nouns-noun-lex &
+       [ STEM < "dad" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_father_n_rel" ].
+
+st_27ak := vb_nouns-noun-lex &
+	   [ STEM < "st'ak" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_man_n_rel" ].
+
+mindor := vb_nouns-noun-lex &
+	  [ STEM < "mindor" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_park_n_rel" ].
+
+q_27ar := jj_nouns-noun-lex &
+	  [ STEM < "q'ar" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_rain_n_rel" ].
+
+mankaⁿ := jj_nouns-noun-lex &
+	  [ STEM < "mankaⁿ" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_car_n_rel" ].
+
+bader := dd_nouns-noun-lex &
+	 [ STEM < "bader" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_child_n_rel" ].
+
+k_27uit_27i := dd_nouns-noun-lex &
+	       [ STEM < "k'uit'i" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_cat_n_rel" ].
+
+t_27ot_27 := dj_nouns-noun-lex &
+	     [ STEM < "t'ot'" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_hand; paw; branch_n_rel" ].
+
+ħan := question_erg-noun-lex &
+       [ STEM < "ħan" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_person_n_rel" ].
+
+st_27e := question_erg-noun-lex &
+	  [ STEM < "st'e" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+vux := question_abs-noun-lex &
+       [ STEM < "vux" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+meⁿ_2 := question_abs-noun-lex &
+	 [ STEM < "meⁿ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_person_n_rel" ].
+
+pħu := bb_nouns-noun-lex &
+       [ STEM < "pħu" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_dog_n_rel" ].
+
+;;; Adjectives
+
+;;; Verbs
+
+abog := verb1-verb-lex &
+	[ STEM < "abog" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_lies?_v_rel" ].
+
+teb := verb1-verb-lex &
+       [ STEM < "teb" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_to say, to tell, to retell_v_rel" ].
+
+tibʷ := verb1-verb-lex &
+	[ STEM < "tibʷ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_says (quotative)_v_rel" ].
+
+ambavi := verb4-verb-lex &
+	  [ STEM < "ambavi" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_news, story (georgian)_v_rel" ].
+
+ambui_2 := verb4-verb-lex &
+	   [ STEM < "ambui" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_conversation_v_rel" ].
+
+mogiq_27van := verb4-verb-lex &
+	       [ STEM < "mogiq'van" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_i took you (georgian)_v_rel" ].
+
+moxda_1 := verb4-verb-lex &
+	   [ STEM < "moxda" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_{it happened} (georgian)_v_rel" ].
+
+ambui_3 := verb5-verb-lex &
+	   [ STEM < "ambui" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_converse_v_rel" ].
+
+axk_27_1 := verb5-verb-lex &
+	    [ STEM < "axk'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_tie (impf, no cm)_v_rel" ].
+
+dok_27_2 := verb5-verb-lex &
+	    [ STEM < "dok'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_heart_v_rel" ].
+
+k_27levad := verb5-verb-lex &
+	     [ STEM < "k'levad" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_request, ask for_v_rel" ].
+
+liba_1 := verb5-verb-lex &
+	  [ STEM < "liba" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_give! (imperative)_v_rel" ].
+
+mak_2 := verb5-verb-lex &
+	 [ STEM < "mak" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_up, above, overhead (is used even as a prefix)_v_rel" ].
+
+maɬar_1 := verb5-verb-lex &
+	   [ STEM < "maɬar" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_drink (pfv)_v_rel" ].
+
+meɬ := verb5-verb-lex &
+       [ STEM < "meɬ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_drink_v_rel" ].
+
+moxda_2 := verb5-verb-lex &
+	   [ STEM < "moxda" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_it happened (georgian)_v_rel" ].
+
+nʕaiʔi_1 := verb5-verb-lex &
+	    [ STEM < "nʕaiʔi" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_out, outside, outward_v_rel" ].
+
+;;qalː_1 := verb5-verb-lex &
+;;	  [ STEM < "qalː" >,
+;;	    SYNSEM.LKEYS.KEYREL.PRED "_consume_v_rel" ].
+
+qel_1 := verb5-verb-lex &
+	 [ STEM < "qel" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_treat? (when following goːn)_v_rel" ].
+
+qerɬ_1 := verb5-verb-lex &
+	  [ STEM < "qerɬ" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_fear_v_rel" ].
+
+qet_1 := verb5-verb-lex &
+	 [ STEM < "qet" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_know, understand_v_rel" ].
+
+qos_1 := verb5-verb-lex &
+	 [ STEM < "qos" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_throw, shoot_v_rel" ].
+
+;;so_2 := verb5-verb-lex &
+;;	[ STEM < "so" >,
+;;	  SYNSEM.LKEYS.KEYREL.PRED "_toward speaker_v_rel" ].
+
+sodaħ_1 := verb5-verb-lex &
+	   [ STEM < "sodaħ" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_back and forth_v_rel" ].
+
+teɬ_1 := verb5-verb-lex &
+	 [ STEM < "teɬ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_be better than, prefer-or-give (impf)_v_rel" ].
+
+xac_27_1 := verb5-verb-lex &
+	    [ STEM < "xac'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_hear, understand_v_rel" ].
+
+xeʔ_1 := verb5-verb-lex &
+	 [ STEM < "xeʔ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_know, understand (impf)_v_rel" ].
+
+čašxamad_1 := verb5-verb-lex &
+	      [ STEM < "čašxamad" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_poison (someones life) (+postradical cm)_v_rel" ].
+
+ħalʷ_1 := verb5-verb-lex &
+	  [ STEM < "ħalʷ" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_up_v_rel" ].
+
+ħarč_1 := verb5-verb-lex &
+	  [ STEM < "ħarč" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_wrap, fold up_v_rel" ].
+
+ħeč_27_1 := verb5-verb-lex &
+	    [ STEM < "ħeč'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_look at/after (impf); watch_v_rel" ].
+
+šarn_1 := verb5-verb-lex &
+	  [ STEM < "šarn" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_no_gloss_v_rel" ].
+
+ɣo_1 := verb5-verb-lex &
+	[ STEM < "ɣo" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_go (future)_v_rel" ].
+
+meq_27 := verb5-verb-lex &
+	  [ STEM < "meq'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_stay_v_rel" ].
+
+mušebad := verb5-verb-lex &
+	   [ STEM < "mušebad" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_work_v_rel" ].
+
+ot_27_1 := verb5-verb-lex &
+	   [ STEM < "ot'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_spread (no gender agrmt)_v_rel" ].
+
+q_27eg := verb5-verb-lex &
+	  [ STEM < "q'eg" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_break (impf)_v_rel" ].
+
+t_27anod := verb5-verb-lex &
+	    [ STEM < "t'anod" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_tolerate (+postradical cm)_v_rel" ].
+
+tepx_1 := verb5-verb-lex &
+	  [ STEM < "tepx" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_play (impf)_v_rel" ].
+
+;;xet_27ː := verb5-verb-lex &
+;;	   [ STEM < "xet'ː" >,
+;;	     SYNSEM.LKEYS.KEYREL.PRED "_ask_v_rel" ].
+
+ħeč_27q_27 := verb5-verb-lex &
+	      [ STEM < "ħeč'q'" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_wring out_v_rel" ].
+
+šuelbad := verb5-verb-lex &
+	   [ STEM < "šuelbad" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_assist?_v_rel" ].
+
+aħ_1 := verb11-verb-lex &
+	[ STEM < "aħ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_down_v_rel" ].
+
+aɬar := verb11-verb-lex &
+	[ STEM < "aɬar" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_say_v_rel" ].
+
+datːar := verb11-verb-lex &
+	  [ STEM < "datːar" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_grill, cook. fry, bake_v_rel" ].
+
+dauʒaxet := verb11-verb-lex &
+	    [ STEM < "dauʒaxet" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_call (georgian)_v_rel" ].
+
+daħ_1 := verb11-verb-lex &
+	 [ STEM < "daħ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_away from speaker_v_rel" ].
+
+ec_1 := verb11-verb-lex &
+	[ STEM < "ec" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_take (pfv)_v_rel" ].
+
+ix_1 := verb11-verb-lex &
+	[ STEM < "ix" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_go, come (no cm)_v_rel" ].
+
+komagebalar_1 := verb11-verb-lex &
+		 [ STEM < "komagebalar" >,
+		   SYNSEM.LKEYS.KEYREL.PRED "_defended?_v_rel" ].
+
+labc_27_1 := verb11-verb-lex &
+	     [ STEM < "labc'" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_play_v_rel" ].
+
+lapsdan_1 := verb11-verb-lex &
+	     [ STEM < "lapsdan" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_to dry_v_rel" ].
+
+latin_1 := verb11-verb-lex &
+	   [ STEM < "latin" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_begin to do regularly, repeatedly_v_rel" ].
+
+laːtː_1 := verb11-verb-lex &
+	   [ STEM < "laːtː" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_stand_v_rel" ].
+
+let_27_1 := verb11-verb-lex &
+	    [ STEM < "let'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_help (impf)_v_rel" ].
+
+lev_1 := verb11-verb-lex &
+	 [ STEM < "lev" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_talk about (impf; post-radical cm)_v_rel" ].
+
+leħ_1 := verb11-verb-lex &
+	 [ STEM < "leħ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_touch (postradical cm; impf)_v_rel" ].
+
+liba_2 := verb11-verb-lex &
+	  [ STEM < "liba" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_give! (imperative)_v_rel" ].
+
+mak_3 := verb11-verb-lex &
+	 [ STEM < "mak" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_up, above, overhead (is used even as a prefix)_v_rel" ].
+
+maq_27_2 := verb11-verb-lex &
+	    [ STEM < "maq'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_freedom_v_rel" ].
+
+maɬar_2 := verb11-verb-lex &
+	   [ STEM < "maɬar" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_drink (pfv)_v_rel" ].
+
+moxda_3 := verb11-verb-lex &
+	   [ STEM < "moxda" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_it happened (georgian)_v_rel" ].
+
+nʕaiʔi_2 := verb11-verb-lex &
+	    [ STEM < "nʕaiʔi" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_out, outside, outward_v_rel" ].
+
+;;qalː_2 := verb11-verb-lex &
+;;	  [ STEM < "qalː" >,
+;;	    SYNSEM.LKEYS.KEYREL.PRED "_consume_v_rel" ].
+
+qel_2 := verb11-verb-lex &
+	 [ STEM < "qel" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_treat? (when following goːn)_v_rel" ].
+
+qerɬ_2 := verb11-verb-lex &
+	  [ STEM < "qerɬ" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_fear_v_rel" ].
+
+qet_2 := verb11-verb-lex &
+	 [ STEM < "qet" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_know, understand_v_rel" ].
+
+qos_2 := verb11-verb-lex &
+	 [ STEM < "qos" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_throw, shoot_v_rel" ].
+
+;;so_3 := verb11-verb-lex &
+;;	[ STEM < "so" >,
+;;	  SYNSEM.LKEYS.KEYREL.PRED "_toward speaker_v_rel" ].
+
+sodaħ_2 := verb11-verb-lex &
+	   [ STEM < "sodaħ" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_back and forth_v_rel" ].
+
+teɬ_2 := verb11-verb-lex &
+	 [ STEM < "teɬ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_be better than, prefer-or-give (impf)_v_rel" ].
+
+xac_27_2 := verb11-verb-lex &
+	    [ STEM < "xac'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_hear, understand_v_rel" ].
+
+xeʔ_2 := verb11-verb-lex &
+	 [ STEM < "xeʔ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_know, understand (impf)_v_rel" ].
+
+čašxamad_2 := verb11-verb-lex &
+	      [ STEM < "čašxamad" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_poison (someones life) (+postradical cm)_v_rel" ].
+
+ħalʷ_2 := verb11-verb-lex &
+	  [ STEM < "ħalʷ" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_up_v_rel" ].
+
+ħarč_2 := verb11-verb-lex &
+	  [ STEM < "ħarč" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_wrap, fold up_v_rel" ].
+
+ħeč_27_2 := verb11-verb-lex &
+	    [ STEM < "ħeč'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_look at/after (impf); watch_v_rel" ].
+
+šarn_2 := verb11-verb-lex &
+	  [ STEM < "šarn" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_no_gloss_v_rel" ].
+
+ɣo_2 := verb11-verb-lex &
+	[ STEM < "ɣo" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_go (future)_v_rel" ].
+
+al := verb16-verb-lex &
+      [ STEM < "al" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_(+cm, with preverbs) go out, go up, go in, etc-or-(+preradical cm) to hold-or-caused to be?_v_rel" ].
+
+aq_1 := verb16-verb-lex &
+	[ STEM < "aq" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_protected?-or-to grow up (+pre and post-radical cm and -al)_v_rel" ].
+
+ast_27 := verb16-verb-lex &
+	  [ STEM < "ast'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_to open (+preradical cm)-or-untie (+preradical cm)_v_rel" ].
+
+av_1 := verb16-verb-lex &
+	[ STEM < "av" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_be lost (intrans, +preradical cm)_v_rel" ].
+
+aɣ_2 := verb16-verb-lex &
+	[ STEM < "aɣ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_come (impf, preradical cm)_v_rel" ].
+
+ec_27 := verb16-verb-lex &
+	 [ STEM < "ec'" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_love, want (preradical cm)_v_rel" ].
+
+ek_27 := verb16-verb-lex &
+	 [ STEM < "ek'" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_fall (pfv, +predical cm)_v_rel" ].
+
+eq_2 := verb16-verb-lex &
+	[ STEM < "eq" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_ to pay (money, debt) (+pre-radical cm)_v_rel" ].
+
+exk_27 := verb16-verb-lex &
+	  [ STEM < "exk'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_(+cm) go, come (plural)-or-sell (+preradical cm)-or-tie (pfv, +preradical cm)_v_rel" ].
+
+is_1 := verb16-verb-lex &
+	[ STEM < "is" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_protected?-or-stay without own initiative (+preradical cm)_v_rel" ].
+
+iš_2 := verb16-verb-lex &
+	[ STEM < "iš" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_lie down; go to bed (+preradical cm)_v_rel" ].
+
+olː := verb16-verb-lex &
+       [ STEM < "olː" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_put down (gender agrmt)-or-to bury, have a funeral_v_rel" ].
+
+or_2 := verb16-verb-lex &
+	[ STEM < "or" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_make (past tense; +gender agmt)_v_rel" ].
+
+oxk_27 := verb16-verb-lex &
+	  [ STEM < "oxk'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_sell (preradical cm)_v_rel" ].
+
+uɣ := verb16-verb-lex &
+      [ STEM < "uɣ" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_shout, bleat, howl (preradical cm)_v_rel" ].
+
+ʕev := verb16-verb-lex &
+       [ STEM < "ʕev" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_kill (+preradical cm)_v_rel" ].
+
+ʕog := verb16-verb-lex &
+       [ STEM < "ʕog" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_break (+preradical cm)_v_rel" ].
+
+ʡedaɣ_1 := verb16-verb-lex &
+	   [ STEM < "ʡedaɣ" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_sit_v_rel" ].
+
+aʔ_1 := verb16-verb-lex &
+	[ STEM < "aʔ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_to bring_v_rel" ].
+
+ek := verb16-verb-lex &
+      [ STEM < "ek" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_call, invite (+preradical cm)_v_rel" ].
+
+el := verb16-verb-lex &
+      [ STEM < "el" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_laugh (preradical cm)_v_rel" ].
+
+epc := verb16-verb-lex &
+       [ STEM < "epc" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_tell, retell (+preradical cm)-or-twine, knit (+preradical cm)_v_rel" ].
+
+ex := verb16-verb-lex &
+      [ STEM < "ex" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_ask, request (+preradical cm)-or-invite_v_rel" ].
+
+ik_27_2 := verb16-verb-lex &
+	   [ STEM < "ik'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_take away-or-take away, carry away (preradical cm)_v_rel" ].
+
+ilː := verb16-verb-lex &
+       [ STEM < "ilː" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_ put (+preradical cm)_v_rel" ].
+
+iy := verb16-verb-lex &
+      [ STEM < "iy" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_do_v_rel" ].
+
+oc_27 := verb16-verb-lex &
+	 [ STEM < "oc'" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_(+pre-radical cm, +-dal) tie, tie together_v_rel" ].
+
+os := verb16-verb-lex &
+      [ STEM < "os" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_get down (+predical cm)_v_rel" ].
+
+ož := verb16-verb-lex &
+      [ STEM < "ož" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_to fall (+preradical cm)_v_rel" ].
+
+;;;ac_27_1 := verb16-verb-lex &
+;;;  [ STEM < "ac'" >,
+;;;   SYNSEM.LKEYS.KEYREL.PRED "_to follow, to run after, to haunt (+preradical cm)_v_rel" ].
+
+aɬ_1 := verb16-verb-lex &
+	[ STEM < "aɬ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_become?_v_rel" ].
+
+ăl := verb16-verb-lex &
+      [ STEM < "ăl" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_to die (+preradical cm)_v_rel" ].
+
+at_27_1 := verb16-verb-lex &
+	   [ STEM < "at'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_to run away, to escape (+pre and post-radical cm)_v_rel" ].
+
+il := verb16-verb-lex &
+      [ STEM < "il" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_wash (+pre and postradical cm)_v_rel" ].
+
+ol_1 := verb16-verb-lex &
+	[ STEM < "ol" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_lets (+preradical cm)_v_rel" ].
+
+opc := verb16-verb-lex &
+       [ STEM < "opc" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_weave, knit (+preradical cm)_v_rel" ].
+
+opx := verb16-verb-lex &
+       [ STEM < "opx" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_put on_v_rel" ].
+
+it := verb16-verb-lex &
+      [ STEM < "it" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_leave, keep; concede (+preradical cm)_v_rel" ].
+
+ido := verb16-verb-lex &
+       [ STEM < "ido" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_could x?_v_rel" ].
+
+alː := verb18-verb-lex &
+       [ STEM < "alː" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_be put in, placed in (preradical cm)_v_rel" ].
+
+olix := verb18-verb-lex &
+	[ STEM < "olix" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_go (imperative) (+preradical cm)_v_rel" ].
+
+;;;ac_27_2 := verb18-verb-lex &
+;;;  [ STEM < "ac'" >,
+;;;    SYNSEM.LKEYS.KEYREL.PRED "_(+preradical cm) to have, keep or have something in bound form _v_rel" ].
+
+et_27 := verb33-verb-lex &
+	 [ STEM < "et'" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_to oppress (+preradical cm, preverb maka[ħ])_v_rel" ].
+
+ux := verb33-verb-lex &
+      [ STEM < "ux" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_back (+cm)_v_rel" ].
+
+bnev := verb49-verb-lex &
+	[ STEM < "bnev" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_pour_v_rel" ].
+
+c_27era := verb49-verb-lex &
+	   [ STEM < "c'era" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_write; record_v_rel" ].
+
+k_27vexa := verb49-verb-lex &
+	    [ STEM < "k'vexa" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_brag, boast (+post-radical cm and -al)_v_rel" ].
+
+kotː := verb49-verb-lex &
+	[ STEM < "kotː" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_worry_v_rel" ].
+
+leč_27q_27 := verb49-verb-lex &
+	      [ STEM < "leč'q'" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_hide_v_rel" ].
+
+nebivreb := verb49-verb-lex &
+	    [ STEM < "nebivreb" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_delight in, savor, relish? _v_rel" ].
+
+perba := verb49-verb-lex &
+	 [ STEM < "perba" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_to caress, to pet, to fondle (+post-radical cm)_v_rel" ].
+
+revad := verb49-verb-lex &
+	 [ STEM < "revad" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_mix (post-radical cm)_v_rel" ].
+
+ridba := verb49-verb-lex &
+	 [ STEM < "ridba" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_to set apart, to protect (from the disease) (+postradical cm)_v_rel" ].
+
+t_27at_27 := verb49-verb-lex &
+	     [ STEM < "t'at'" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_get wet (postradical cm)_v_rel" ].
+
+t_27link_27eb := verb49-verb-lex &
+		 [ STEM < "t'link'eb" >,
+		   SYNSEM.LKEYS.KEYREL.PRED "_kick (horse); cavort_v_rel" ].
+
+c_27olba := verb51-verb-lex &
+	    [ STEM < "c'olba" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_torture, struggle, suffer_v_rel" ].
+
+kħek := verb51-verb-lex &
+	[ STEM < "kħek" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_cook, prepare (postradical cm)_v_rel" ].
+
+čak_27unt_27ad_2 := verb51-verb-lex &
+		    [ STEM < "čak'unt'ad" >,
+		      SYNSEM.LKEYS.KEYREL.PRED "_squat (post-radical cm?)_v_rel" ].
+
+c_27onala_1 := verb52-verb-lex &
+	       [ STEM < "c'onala" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_like_v_rel" ].
+
+daubala := verb71-verb-lex &
+	   [ STEM < "daubala" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_argue, contend, spar?_v_rel" ].
+
+dec_27e := verb72-verb-lex &
+	   [ STEM < "dec'e" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_should, must_v_rel" ].
+
+et_27q_27oba := verb72-verb-lex &
+		[ STEM < "et'q'oba" >,
+		  SYNSEM.LKEYS.KEYREL.PRED "_seem, appear (georgian)_v_rel" ].
+
+lat := verb72-verb-lex &
+       [ STEM < "lat" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_fight_v_rel" ].
+
+lepč := verb72-verb-lex &
+	[ STEM < "lepč" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_lie_v_rel" ].
+
+lex := verb72-verb-lex &
+       [ STEM < "lex" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_search for_v_rel" ].
+
+motː_1 := verb72-verb-lex &
+	  [ STEM < "motː" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_regard, consider_v_rel" ].
+
+qaic_27 := verb72-verb-lex &
+	   [ STEM < "qaic'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_hang_v_rel" ].
+
+ħirc_27_1 := verb72-verb-lex &
+	     [ STEM < "ħirc'" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_become, turn into?_v_rel" ].
+
+ʕepxet_1 := verb72-verb-lex &
+	    [ STEM < "ʕepxet" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_be ashamed_v_rel" ].
+
+ʡit_27_1 := verb72-verb-lex &
+	    [ STEM < "ʡit'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_run_v_rel" ].
+
+qebl := verb72-verb-lex &
+	[ STEM < "qebl" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_wear, cover (head)_v_rel" ].
+
+čartod := verb72-verb-lex &
+	  [ STEM < "čartod" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_turn on, switch on_v_rel" ].
+
+pšel_2 := verb72-verb-lex &
+	  [ STEM < "pšel" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_catch a cold (+post-radical cm then intransitive -al)_v_rel" ].
+
+eš_2 := verb75-verb-lex &
+	[ STEM < "eš" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_lack, be insufficient_v_rel" ].
+
+k_27erbad := verb75-verb-lex &
+	     [ STEM < "k'erbad" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_compose (song, poem) (+post radical cm)_v_rel" ].
+
+;;xet := verb75-verb-lex &
+;;       [ STEM < "xet" >,
+;;	 SYNSEM.LKEYS.KEYREL.PRED "_find_v_rel" ].
+
+kat_27 := verb83-verb-lex &
+	  [ STEM < "kat'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_complain (no cm)_v_rel" ].
+
+lev_2 := verb83-verb-lex &
+	 [ STEM < "lev" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_talk about (impf; post-radical cm)_v_rel" ].
+
+leʔ_1 := verb83-verb-lex &
+	 [ STEM < "leʔ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_want_v_rel" ].
+
+lal := verb86-verb-lex &
+       [ STEM < "lal" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_go_v_rel" ].
+
+teq_27 := verb86-verb-lex &
+	  [ STEM < "teq'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_to beg, to pray_v_rel" ].
+
+motː_2 := verb86-verb-lex &
+	  [ STEM < "motː" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_regard, consider_v_rel" ].
+
+nʕaiʔi_3 := verb86-verb-lex &
+	    [ STEM < "nʕaiʔi" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_out, outside, outward_v_rel" ].
+
+qaʔ := verb86-verb-lex &
+       [ STEM < "qaʔ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_overtake, get to, come to_v_rel" ].
+
+qerɬ_3 := verb86-verb-lex &
+	  [ STEM < "qerɬ" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_fear_v_rel" ].
+
+qet_3 := verb86-verb-lex &
+	 [ STEM < "qet" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_know, understand_v_rel" ].
+
+sa_2 := verb86-verb-lex &
+	[ STEM < "sa" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_spirit, soul_v_rel" ].
+
+;;so_4 := verb86-verb-lex &
+;;	[ STEM < "so" >,
+;;	  SYNSEM.LKEYS.KEYREL.PRED "_toward speaker_v_rel" ].
+
+teɬ_3 := verb86-verb-lex &
+	 [ STEM < "teɬ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_be better than, prefer_v_rel" ].
+
+xaʔ := verb86-verb-lex &
+       [ STEM < "xaʔ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_sit (singular)_v_rel" ].
+
+ħirc_27_2 := verb86-verb-lex &
+	     [ STEM < "ħirc'" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_become, turn into?_v_rel" ].
+
+ʕepxet_2 := verb86-verb-lex &
+	    [ STEM < "ʕepxet" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_be ashamed_v_rel" ].
+
+ʡit_27_2 := verb86-verb-lex &
+	    [ STEM < "ʡit'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_run_v_rel" ].
+
+t_27ap_20leq := verb86-verb-lex &
+		[ STEM < "t'ap",
+			 "leq" >,
+		  SYNSEM.LKEYS.KEYREL.PRED "_to lightning_v_rel" ].
+
+late := verb90-verb-lex &
+	[ STEM < "late" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_regularly, repeatedly _v_rel" ].
+
+leʔ_2 := verb96-verb-lex &
+	 [ STEM < "leʔ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_want_v_rel" ].
+
+otː_2 := verb106-verb-lex &
+	 [ STEM < "otː" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_stand, stay (no cm)_v_rel" ].
+
+oǰax_2 := verb107-verb-lex &
+	  [ STEM < "oǰax" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_family_v_rel" ].
+
+q_27an := verb111-verb-lex &
+	  [ STEM < "q'an" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_to age (postradical cm in dict)_v_rel" ].
+
+qetː_1 := verb120-verb-lex &
+	  [ STEM < "qetː" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_pour_v_rel" ].
+
+t_27q_27uiħe_7E := verb131-verb-lex &
+		   [ STEM < "t'q'uiħe~" >,
+		     SYNSEM.LKEYS.KEYREL.PRED "_behind, after (+dat)_v_rel" ].
+
+ħatxe_7E := verb131-verb-lex &
+	    [ STEM < "ħatxe~" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_in front of (+dat)_v_rel" ].
+
+teg := verb133-verb-lex &
+       [ STEM < "teg" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_reconcile, makeup (no cm)_v_rel" ].
+
+tvin_7E := verb142-verb-lex &
+	   [ STEM < "tvin~" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_going?_v_rel" ].
+
+aq_2 := verb158-verb-lex &
+	[ STEM < "aq" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_raise (+pre and post-radical cm)_v_rel" ].
+
+atx := verb158-verb-lex &
+       [ STEM < "atx" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_fall water, raindrops, snowflakes, tears (+preradical cm)_v_rel" ].
+
+av_2 := verb158-verb-lex &
+	[ STEM < "av" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_spend a night?_v_rel" ].
+
+etː := verb158-verb-lex &
+       [ STEM < "etː" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_hit, throw (impf; +preradical cm)_v_rel" ].
+
+est_27 := verb163-verb-lex &
+	  [ STEM < "est'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_swell (+preradical cm)_v_rel" ].
+
+gudaq := verb163-verb-lex &
+	 [ STEM < "gudaq" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_to expose, to reveal, to show, to appear_v_rel" ].
+
+ħat_27eg := verb173-verb-lex &
+	    [ STEM < "ħat'eg" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_stay the night?_v_rel" ].
+
+ɣosxet := verb178-verb-lex &
+	  [ STEM < "ɣosxet" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_be pleased, happy _v_rel" ].
+
+ak_27 := verb178-verb-lex &
+	 [ STEM < "ak'" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_fall (no cm)_v_rel" ].
+
+t_27q_27obal := verb178-verb-lex &
+		[ STEM < "t'q'obal" >,
+		  SYNSEM.LKEYS.KEYREL.PRED "_it seems_v_rel" ].
+
+šeʒlebala := verb178-verb-lex &
+	     [ STEM < "šeʒlebala" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_can, may_v_rel" ].
+
+ɣo_3 := verb178-verb-lex &
+	[ STEM < "ɣo" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_go (future)_v_rel" ].
+
+ɣob := verb178-verb-lex &
+       [ STEM < "ɣob" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_go! (imperative)_v_rel" ].
+
+ec_2 := verb178-verb-lex &
+	[ STEM < "ec" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_buy (pfv)-or-take (pfv)_v_rel" ].
+
+ix_2 := verb178-verb-lex &
+	[ STEM < "ix" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_go, come (no cm)_v_rel" ].
+
+labc_27_2 := verb178-verb-lex &
+	     [ STEM < "labc'" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_play_v_rel" ].
+
+latin_2 := verb178-verb-lex &
+	   [ STEM < "latin" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_begin to do regularly, repeatedly_v_rel" ].
+
+laːtː_2 := verb178-verb-lex &
+	   [ STEM < "laːtː" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_stand_v_rel" ].
+
+lel := verb178-verb-lex &
+       [ STEM < "lel" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_walk_v_rel" ].
+
+let_27_2 := verb178-verb-lex &
+	    [ STEM < "let'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_help (impf)-or-to rise, to gain weight_v_rel" ].
+
+lev_3 := verb178-verb-lex &
+	 [ STEM < "lev" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_talk about (impf; post-radical cm)_v_rel" ].
+
+leħ_2 := verb178-verb-lex &
+	 [ STEM < "leħ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_touch (postradical cm; impf)_v_rel" ].
+
+liba_3 := verb178-verb-lex &
+	  [ STEM < "liba" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_give! (imperative)_v_rel" ].
+
+mak_4 := verb178-verb-lex &
+	 [ STEM < "mak" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_up, above, overhead (is used even as a prefix)_v_rel" ].
+
+maq_27_3 := verb178-verb-lex &
+	    [ STEM < "maq'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_freedom_v_rel" ].
+
+maɬar_3 := verb178-verb-lex &
+	   [ STEM < "maɬar" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_drink (pfv)_v_rel" ].
+
+moxda_4 := verb178-verb-lex &
+	   [ STEM < "moxda" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_it happened (georgian)_v_rel" ].
+
+nʕaiʔi_4 := verb178-verb-lex &
+	    [ STEM < "nʕaiʔi" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_out, outside, outward_v_rel" ].
+
+;;qalː_3 := verb178-verb-lex &
+;;	  [ STEM < "qalː" >,
+;;	    SYNSEM.LKEYS.KEYREL.PRED "_consume_v_rel" ].
+
+qel_3 := verb178-verb-lex &
+	 [ STEM < "qel" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_treat? (when following goːn)_v_rel" ].
+
+qerɬ_4 := verb178-verb-lex &
+	  [ STEM < "qerɬ" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_fear_v_rel" ].
+
+qet_4 := verb178-verb-lex &
+	 [ STEM < "qet" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_attack-or-know, understand_v_rel" ].
+
+qos_3 := verb178-verb-lex &
+	 [ STEM < "qos" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_throw, shoot_v_rel" ].
+
+;;so_5 := verb178-verb-lex &
+;;	[ STEM < "so" >,
+;;	  SYNSEM.LKEYS.KEYREL.PRED "_toward speaker_v_rel" ].
+
+sodaħ_3 := verb178-verb-lex &
+	   [ STEM < "sodaħ" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_back and forth_v_rel" ].
+
+teɬ_4 := verb178-verb-lex &
+	 [ STEM < "teɬ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_be better than, prefer-or-give (impf)_v_rel" ].
+
+xac_27_3 := verb178-verb-lex &
+	    [ STEM < "xac'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_hear, understand_v_rel" ].
+
+xeʔ_3 := verb178-verb-lex &
+	 [ STEM < "xeʔ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_know, understand (impf)_v_rel" ].
+
+čašxamad_3 := verb178-verb-lex &
+	      [ STEM < "čašxamad" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_poison (someones life) (+postradical cm)_v_rel" ].
+
+ħalʷ_3 := verb178-verb-lex &
+	  [ STEM < "ħalʷ" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_up_v_rel" ].
+
+ħarč_3 := verb178-verb-lex &
+	  [ STEM < "ħarč" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_wrap, fold up_v_rel" ].
+
+ħeč_27_3 := verb178-verb-lex &
+	    [ STEM < "ħeč'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_look at/after (impf); watch_v_rel" ].
+
+šarn_3 := verb178-verb-lex &
+	  [ STEM < "šarn" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_no_gloss_v_rel" ].
+
+laps := verb178-verb-lex &
+	[ STEM < "laps" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_dry_v_rel" ].
+
+tepx_2 := verb178-verb-lex &
+	  [ STEM < "tepx" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_hit (impf)_v_rel" ].
+
+aħ_2 := verb178-verb-lex &
+	[ STEM < "aħ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_down-or-take away (+prerad cm) _v_rel" ].
+
+c_27onala_2 := verb178-verb-lex &
+	       [ STEM < "c'onala" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_like_v_rel" ].
+
+cer_2 := verb178-verb-lex &
+	 [ STEM < "cer" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_edge, extremity-or-shore_v_rel" ].
+
+daħ_2 := verb178-verb-lex &
+	 [ STEM < "daħ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_away from speaker_v_rel" ].
+
+komagebalar_2 := verb178-verb-lex &
+		 [ STEM < "komagebalar" >,
+		   SYNSEM.LKEYS.KEYREL.PRED "_defended?_v_rel" ].
+
+lapsdan_2 := verb178-verb-lex &
+	     [ STEM < "lapsdan" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_to dry_v_rel" ].
+
+aɬ_2 := verb178-verb-lex &
+	[ STEM < "aɬ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_give (+preradical cm)-or-say, talk about (pfv; no cm)_v_rel" ].
+
+gonbad := verb178-verb-lex &
+	  [ STEM < "gonbad" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_come up with_v_rel" ].
+
+gočnad := verb178-verb-lex &
+	  [ STEM < "gočnad" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_to caress, to pet (post-radical cm)_v_rel" ].
+
+lat_27 := verb178-verb-lex &
+	  [ STEM < "lat'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_add-or-help (pfv)_v_rel" ].
+
+letx := verb178-verb-lex &
+	[ STEM < "letx" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_to skip, to hop_v_rel" ].
+
+p_27esxebad := verb178-verb-lex &
+	       [ STEM < "p'esxebad" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_answer_v_rel" ].
+
+qap_27t_27 := verb178-verb-lex &
+	      [ STEM < "qap't'" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_offer, get (thing) out (from a place), give out_v_rel" ].
+
+qač := verb178-verb-lex &
+       [ STEM < "qač" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_achieve; get to, arrive at_v_rel" ].
+
+qaħ := verb178-verb-lex &
+       [ STEM < "qaħ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_bite_v_rel" ].
+
+teš := verb178-verb-lex &
+       [ STEM < "teš" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_to believe, to obey, to trust_v_rel" ].
+
+told := verb178-verb-lex &
+	[ STEM < "told" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_win, defeat (no cm)_v_rel" ].
+
+ħač_27 := verb178-verb-lex &
+	  [ STEM < "ħač'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_look at/after (pfv; no cm)_v_rel" ].
+
+xiɬ := verb178-verb-lex &
+       [ STEM < "xiɬ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_be_v_rel" ].
+
+maɬ := verb178-verb-lex &
+       [ STEM < "maɬ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_drink (pfv)_v_rel" ].
+
+ax_2 := verb178-verb-lex &
+	[ STEM < "ax" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_go (+pre-radical cm)-or-plow_v_rel" ].
+
+lax := verb178-verb-lex &
+       [ STEM < "lax" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_find, look for_v_rel" ].
+
+laħ := verb178-verb-lex &
+       [ STEM < "laħ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_touched_v_rel" ].
+
+q_27at_27ː := verb178-verb-lex &
+	      [ STEM < "q'at'ː" >,
+		SYNSEM.LKEYS.KEYREL.PRED "_open (eyes)_v_rel" ].
+
+qas := verb178-verb-lex &
+       [ STEM < "qas" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_(with liquids) pour, spread, fall??_v_rel" ].
+
+qoxk_27 := verb178-verb-lex &
+	   [ STEM < "qoxk'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_hang plural (somethings = +postradical cm)_v_rel" ].
+
+redup_2 := verb178-verb-lex &
+	   [ STEM < "redup" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_full reduplication_v_rel" ].
+
+tox := verb178-verb-lex &
+       [ STEM < "tox" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_hit, beat (pfv)_v_rel" ].
+
+xat_27ː := verb178-verb-lex &
+	   [ STEM < "xat'ː" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_ask_v_rel" ].
+
+xec := verb178-verb-lex &
+       [ STEM < "xec" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_release, set free_v_rel" ].
+
+qetː_2 := verb178-verb-lex &
+	  [ STEM < "qetː" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_get up (+ħal for pfv)_v_rel" ].
+
+ag_2 := verb178-verb-lex &
+	[ STEM < "ag" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_see (+preradical cm)_v_rel" ].
+
+at_27_2 := verb178-verb-lex &
+	   [ STEM < "at'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_to be spread over_v_rel" ].
+
+atː := verb178-verb-lex &
+       [ STEM < "atː" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_to fry, to bake_v_rel" ].
+
+itː := verb178-verb-lex &
+       [ STEM < "itː" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_wash (+preradical cm)_v_rel" ].
+
+ot_27_2 := verb178-verb-lex &
+	   [ STEM < "ot'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_go, go over (preradical cm)_v_rel" ].
+
+aʔ_2 := verb178-verb-lex &
+	[ STEM < "aʔ" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_come (preradical cm)_v_rel" ].
+
+ol_2 := verb178-verb-lex &
+	[ STEM < "ol" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_start (pre- and postradical cm)_v_rel" ].
+
+ec_27e := verb178-verb-lex &
+	  [ STEM < "ec'e" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_should, must (+cm)_v_rel" ].
+
+aːx := verb178-verb-lex &
+       [ STEM < "aːx" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_live (+preradical cm)_v_rel" ].
+
+erc_27 := verb178-verb-lex &
+	  [ STEM < "erc'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_turn into (+preradical cm)_v_rel" ].
+
+uyt_27 := verb178-verb-lex &
+	  [ STEM < "uyt'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_go_v_rel" ].
+
+axk_27_2 := verb178-verb-lex &
+	    [ STEM < "axk'" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_come (plural; +cm)_v_rel" ].
+
+ʡedaɣ_2 := verb179-verb-lex &
+	   [ STEM < "ʡedaɣ" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_sit_v_rel" ].
+
+abc_27 := transitive-dative-subject-verb-lex &
+	  [ STEM < "abc'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_know_v_rel" ].
+
+arst_27_1 := split-s-volition-abs-verb-lex &
+	     [ STEM < "arst'" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_gain_weight_v_rel" ].
+
+;;arst_27_2 := split-s-volition-erg-1-verb-lex &
+;;  [ STEM < "arst'" >,
+;;    SYNSEM.LKEYS.KEYREL.PRED "_gain_weight_v_rel" ].
+
+erst_27 := split-s-volition-erg-1-verb-lex &
+	   [ STEM < "erst'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_gain_weight_v_rel" ].
+
+;;arst_27_3 := split-s-volition-erg-2-verb-lex &
+;;  [ STEM < "arst'" >,
+;;    SYNSEM.LKEYS.KEYREL.PRED "_gain_weight_v_rel" ].
+
+a := trans_impr_agr-abs-abs-verb-lex &
+     [ STEM < "a" >,
+       SYNSEM.LKEYS.KEYREL.PRED "_be_v_id_rel"].
+
+a_2 := copula-verb-lex &
+       [ STEM < "a" > ].
+
+tet_27 := trans_imperfective_no_agr-verb-lex &
+	  [ STEM < "tet'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_cut_v_rel" ].
+
+tit_27 := trans_perfective_no_agr-verb-lex &
+	  [ STEM < "tit'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_cut_v_rel" ].
+
+dak_27lev := clause_comp_dec_impf_no_agr-verb-lex &
+	     [ STEM < "dak'lev" >,
+	       SYNSEM.LKEYS.KEYREL.PRED "_think_v_rel" ].
+
+xeʔ_4 := clause_comp_dec_impf_no_agr-verb-lex &
+	 [ STEM < "xeʔ" >,
+	   SYNSEM.LKEYS.KEYREL.PRED "_know_v_rel" ].
+
+xet_27 := clause_comp_ques_impf_no_agr-verb-lex &
+	  [ STEM < "xet'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_ask_v_rel" ].
+
+;;xat_27 := clause_comp_ques_perf_no_agr-verb-lex &
+;;	  [ STEM < "xat'" >,
+;;	    SYNSEM.LKEYS.KEYREL.PRED "_ask_v_rel" ].
+
+ac_27yal := trans_impr_agr_con-verb-lex &
+	    [ STEM < "ac'yal" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel" ].
+
+aq_27_2 := trans_impr_agr-erg-abs-verb-lex &
+	   [ STEM < "aq'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_eat_v_rel" ].
+
+ac_27_3 := intrans_impr_agr-verb-lex &
+	   [ STEM < "ac'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_run_v_rel" ].
+
+toħ := intrans_imp_no_agr-verb-lex &
+       [ STEM < "toħ" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_sleep_v_rel" ].
+
+;;; Auxiliaries
+
+šarn_4 := aux1-aux-lex &
+	  [ STEM < "šarn" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_no_gloss_v_rel" ].
+
+šarn_5 := aux2-aux-lex &
+	  [ STEM < "šarn" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_no_gloss_v_rel" ].
+
+šarn_6 := aux3-aux-lex &
+	  [ STEM < "šarn" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_no_gloss_v_rel" ].
+
+co := neg4-aux-lex &
+      [ STEM < "co" >,
+	SYNSEM.LKEYS.KEYREL.PRED "neg_rel" ].
+
+;;me_1 := aux5-aux-lex &
+;;  [ STEM < "me" > ].
+
+šuin := aux6-aux-lex &
+	[ STEM < "šuin" > ].
+
+-i := aux7-aux-lex &
+      [ STEM < "-i" > ].
+
+ħain := aux8-aux-lex &
+	[ STEM < "ħain" > ].
+
+ħuin := aux9-aux-lex &
+	[ STEM < "ħuin" > ].
+
+šarin := aux10-aux-lex &
+	 [ STEM < "šarin" > ].
+
+;;oqux := aux11-aux-lex &
+;;  [ STEM < "oqux" > ].
+
+;;-x := aux12-aux-lex &
+;;  [ STEM < "-x" > ].
+
+;;-er := aux13-aux-lex &
+;;  [ STEM < "-er" > ].
+
+txain := aux14-aux-lex &
+	 [ STEM < "txain" > ].
+
+sain := aux15-aux-lex &
+	[ STEM < "sain" > ].
+
+šer := aux16-aux-lex &
+       [ STEM < "šer" > ].
+
+;;šarax := aux17-aux-lex &
+;;  [ STEM < "šarax" > ].
+
+suin := aux18-aux-lex &
+	[ STEM < "suin" > ].
+
+ma := aux19-aux-lex &
+      [ STEM < "ma" > ].
+
+suinen := aux20-aux-lex &
+	  [ STEM < "suinen" > ].
+
+;;; Determiners
+
+ebi := det1-determiner-lex &
+       [ STEM < "ebi" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+q_27ovel := det2-determiner-lex &
+	    [ STEM < "q'ovel" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+e-n := det3-determiner-lex &
+       [ STEM < "e-n" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+e_2 := det4-determiner-lex &
+       [ STEM < "e" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+ise := det5-determiner-lex &
+       [ STEM < "ise" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+equs_2 := det6-determiner-lex &
+	  [ STEM < "equs" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+uišt_27 := det7-determiner-lex &
+	   [ STEM < "uišt'" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+is_2 := det8-determiner-lex &
+	[ STEM < "is" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+ese := det9-determiner-lex &
+       [ STEM < "ese" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+eq_3 := det11-determiner-lex &
+	[ STEM < "eq" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+išt_27 := det12-determiner-lex &
+	  [ STEM < "išt'" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+o-cin-aʔ := det13-determiner-lex &
+	    [ STEM < "o-cin-aʔ" >,
+	      SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+cħadari := det14-determiner-lex &
+	   [ STEM < "cħadari" >,
+	     SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+uis-e_3Dmciⁿ := det15-determiner-lex &
+		[ STEM < "uis-e=mciⁿ" >,
+		  SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+icxuin := det16-determiner-lex &
+	  [ STEM < "icxuin" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+ošt_27un-aʔ := det17-determiner-lex &
+	       [ STEM < "ošt'un-aʔ" >,
+		 SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+e-go := det18-determiner-lex &
+	[ STEM < "e-go" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+icx := det19-determiner-lex &
+       [ STEM < "icx" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+o_2 := det20-determiner-lex &
+       [ STEM < "o" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+oq := det21-determiner-lex &
+      [ STEM < "oq" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_exist_q_rel" ].
+
+;;; Adverbs
+
+1SG-POSS-ABS-noun := 1SG-POSS-ABS-noun-lex &
+		     [ STEM < "seⁿ" > ].
+
+1SG-POSS-OBL-noun := 1SG-POSS-OBL-noun-lex &
+		     [ STEM < "se" > ].
+
+2SG-POSS-ABS-noun := 2SG-POSS-ABS-noun-lex &
+		     [ STEM < "ħeⁿ" > ].
+
+2SG-POSS-OBL-noun := 2SG-POSS-OBL-noun-lex &
+		     [ STEM < "ħe" > ].
+
+2PL-POSS-ABS-noun := 2PL-POSS-ABS-noun-lex &
+		     [ STEM < "šuⁿ" > ].
+
+2PL-POSS-OBL-noun := 2PL-POSS-OBL-noun-lex &
+		     [ STEM < "šu" > ].
+
+1PL-INCL-POSS-ABS-noun := 1PL-INCL-POSS-ABS-noun-lex &
+			  [ STEM < "vaiⁿ" > ].
+
+1PL-INCL-POSS-OBL-noun := 1PL-INCL-POSS-OBL-noun-lex &
+			  [ STEM < "vai" > ].
+
+1PL-EXCL-POSS-ABS-noun := 1PL-EXCL-POSS-ABS-noun-lex &
+			  [ STEM < "txeⁿ" > ].
+
+1PL-EXCL-POSS-OBL-noun := 1PL-EXCL-POSS-OBL-noun-lex &
+			  [ STEM < "txe" > ].
+
+3SG-POSS-ABS-noun := 3SG-POSS-ABS-noun-lex &
+		     [ STEM < "oquiⁿ" > ].
+
+3SG-POSS-OBL-noun := 3SG-POSS-OBL-noun-lex &
+		     [ STEM < "oqui" > ].
+
+stex := question_con-noun-lex &
+	  [ STEM < "st'e-x" >,
+	    SYNSEM.LKEYS.KEYREL.PRED "_thing_n_rel" ].
+
+ye2 := conj-lex &
+       [ STEM < "ye" >,
+	 SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+	 CFORM "2" ].
+
+e9 := conj-lex &
+      [ STEM < "e" >,
+	SYNSEM.LKEYS.KEYREL.PRED "_and_coord_rel",
+	CFORM "9" ].
+
+maci := bbl-basic-adjective-lex & 
+	[ STEM < "maci" >,
+	  SYNSEM.LKEYS.KEYREL.PRED "_hungry_a_rel" ].
+
+
+;;; Complementizers
+
+me_2 := comps1-complementizer-lex-item &
+	[ STEM < "me" > ].
